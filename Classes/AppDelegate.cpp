@@ -16,7 +16,15 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto director = Director::getInstance();
     auto glview = director->getOpenGLView();
     if(!glview) {
-        glview = GLView::create("My Game");
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_MAC)
+        glview = GLView::createWithRect("Mahjong", Rect(0, 0, 1280 * 0.85f, 720 * 0.85f));
+#elif (CC_TARGET_PLATFORM == CC_PLATFORM_LINUX)
+        glview = GLView::createWithRect("Mahjong", Rect(0, 0, 1280, 720));
+#elif (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32)
+        glview = GLView::createWithRect("Mahjong", Rect(0, 0, 1280 * 0.8f, 720 * 0.8f));
+#else
+        glview = GLView::create("Mahjong");
+#endif
         director->setOpenGLView(glview);
     }
 
