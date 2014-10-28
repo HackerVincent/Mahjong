@@ -2,6 +2,7 @@
 #define __HELLOWORLD_SCENE_H__
 
 #include "cocos2d.h"
+#include "Net/MWebSocket.h"
 
 class HelloWorld : public cocos2d::Layer
 {
@@ -16,9 +17,11 @@ public:
     void menuCloseCallback(cocos2d::Ref* pSender);
     
     
+    void send();
+    
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
-
+    MWebSocket* _socket;
 };
 
 #endif // __HELLOWORLD_SCENE_H__

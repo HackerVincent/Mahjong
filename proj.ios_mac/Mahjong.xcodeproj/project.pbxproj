@@ -25,8 +25,16 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		4057E99619FE1AA600CE4900 /* MWebSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4057E99419FE1AA600CE4900 /* MWebSocket.cpp */; };
+		4057E99719FE1AA600CE4900 /* MWebSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4057E99419FE1AA600CE4900 /* MWebSocket.cpp */; };
 		40715DC619FE0D2800F177EA /* UI_Login.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40715DC419FE0D2800F177EA /* UI_Login.cpp */; };
 		40715DC719FE0D2800F177EA /* UI_Login.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40715DC419FE0D2800F177EA /* UI_Login.cpp */; };
+		40715DD319FE10A500F177EA /* MThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40715DD119FE10A500F177EA /* MThread.cpp */; };
+		40715DD419FE10A500F177EA /* MThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40715DD119FE10A500F177EA /* MThread.cpp */; };
+		408EF5A119FE348E0058B891 /* CommonCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408EF59F19FE348E0058B891 /* CommonCommand.cpp */; };
+		408EF5A219FE348E0058B891 /* CommonCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408EF59F19FE348E0058B891 /* CommonCommand.cpp */; };
+		408EF5A519FE35030058B891 /* HMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408EF5A319FE35030058B891 /* HMessage.cpp */; };
+		408EF5A619FE35030058B891 /* HMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408EF5A319FE35030058B891 /* HMessage.cpp */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
 		503AE10117EB989F00D1A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
@@ -230,8 +238,16 @@
 		1D6058910D05DD3D006BFB54 /* Mahjong iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mahjong iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4057E99419FE1AA600CE4900 /* MWebSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MWebSocket.cpp; sourceTree = "<group>"; };
+		4057E99519FE1AA600CE4900 /* MWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWebSocket.h; sourceTree = "<group>"; };
 		40715DC419FE0D2800F177EA /* UI_Login.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UI_Login.cpp; sourceTree = "<group>"; };
 		40715DC519FE0D2800F177EA /* UI_Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI_Login.h; sourceTree = "<group>"; };
+		40715DD119FE10A500F177EA /* MThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MThread.cpp; sourceTree = "<group>"; };
+		40715DD219FE10A500F177EA /* MThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MThread.h; sourceTree = "<group>"; };
+		408EF59F19FE348E0058B891 /* CommonCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; path = CommonCommand.cpp; sourceTree = "<group>"; };
+		408EF5A019FE348E0058B891 /* CommonCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCommand.h; sourceTree = "<group>"; };
+		408EF5A319FE35030058B891 /* HMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HMessage.cpp; sourceTree = "<group>"; };
+		408EF5A419FE35030058B891 /* HMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMessage.h; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503AE0FA17EB989F00D1A890 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = SOURCE_ROOT; };
@@ -417,6 +433,13 @@
 		40715DC119FE0D0300F177EA /* Net */ = {
 			isa = PBXGroup;
 			children = (
+				408EF59C19FE34760058B891 /* command */,
+				4057E99419FE1AA600CE4900 /* MWebSocket.cpp */,
+				4057E99519FE1AA600CE4900 /* MWebSocket.h */,
+				40715DD119FE10A500F177EA /* MThread.cpp */,
+				40715DD219FE10A500F177EA /* MThread.h */,
+				408EF5A319FE35030058B891 /* HMessage.cpp */,
+				408EF5A419FE35030058B891 /* HMessage.h */,
 			);
 			name = Net;
 			path = ../Classes/Net;
@@ -438,6 +461,15 @@
 			);
 			name = Tools;
 			path = ../Classes/Tools;
+			sourceTree = "<group>";
+		};
+		408EF59C19FE34760058B891 /* command */ = {
+			isa = PBXGroup;
+			children = (
+				408EF59F19FE348E0058B891 /* CommonCommand.cpp */,
+				408EF5A019FE348E0058B891 /* CommonCommand.h */,
+			);
+			path = command;
 			sourceTree = "<group>";
 		};
 		503AE0F517EB97AB00D1A890 /* Icons */ = {
@@ -703,7 +735,11 @@
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				40715DC619FE0D2800F177EA /* UI_Login.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				4057E99619FE1AA600CE4900 /* MWebSocket.cpp in Sources */,
+				408EF5A519FE35030058B891 /* HMessage.cpp in Sources */,
+				408EF5A119FE348E0058B891 /* CommonCommand.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
+				40715DD319FE10A500F177EA /* MThread.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,
 			);
@@ -713,10 +749,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40715DD419FE10A500F177EA /* MThread.cpp in Sources */,
 				5087E75717EB910900C73F5D /* AppDelegate.cpp in Sources */,
+				408EF5A619FE35030058B891 /* HMessage.cpp in Sources */,
 				5087E75817EB910900C73F5D /* HelloWorldScene.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				40715DC719FE0D2800F177EA /* UI_Login.cpp in Sources */,
+				4057E99719FE1AA600CE4900 /* MWebSocket.cpp in Sources */,
+				408EF5A219FE348E0058B891 /* CommonCommand.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
