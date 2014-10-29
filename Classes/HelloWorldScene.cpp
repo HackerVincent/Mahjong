@@ -66,8 +66,7 @@ void HelloWorld::send()
 {
 //    _socket->send();
     auto mess = new HMessage();
-    mess->putInt(12);
-    mess->putUTF8("what the fuck~~~");
+    mess->putUTF8("法克鱿~");
     CommonCommand::getInstance()->sendMessage(mess);
 }
 

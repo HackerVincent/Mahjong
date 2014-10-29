@@ -126,6 +126,9 @@ void MWebSocket::onMessage(cocos2d::network::WebSocket *ws, const cocos2d::netwo
         char times[100] = {0};
         sprintf(times, "%d", _sendBinaryTimes);
         
+        auto mess1 = new HMessage((uint8_t*)data.bytes,data.len);
+        CCLOG("%s--->",mess1->getBuf());
+        
 //        std::string binaryStr = "response bin msg: ";
         std::string binaryStr;
         for (int i = 0; i < data.len; ++i) {
@@ -135,14 +138,12 @@ void MWebSocket::onMessage(cocos2d::network::WebSocket *ws, const cocos2d::netwo
             }
             else
             {
-                binaryStr += "\'\\0\'";
+//                binaryStr += "\'\\0\'";
             }
         }
         
-        HMessage* mess = new HMessage((uint8_t*)binaryStr.c_str(),6);
-        CCLOG("%d",mess->getInt());
-        mess->getBuf();
-        mess->getUTF8();
+//        HMessage* mess = new HMessage((uint8_t*)binaryStr.c_str(),6);
+//        CCLOG("%s",mess->getBuf());
         binaryStr += std::string(", ")+times;
         log("%s", binaryStr.c_str());
     }
