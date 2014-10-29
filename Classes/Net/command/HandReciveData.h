@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 #include "cocos2d.h"
-#include "HMessage.h"
+#include "Tools/HMessage.h"
 #include <vector>
 using namespace cocos2d;
 using namespace std;

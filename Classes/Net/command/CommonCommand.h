@@ -10,8 +10,8 @@
 #define __Mahjong__CommonCommand__
 
 #include <stdio.h>
-#include "MWebSocket.h"
-#include "HMessage.h"
+#include "Net/MWebSocket.h"
+#include "Tools/HMessage.h"
 class CommonCommand{
 public:
     CommonCommand();

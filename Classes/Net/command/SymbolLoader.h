@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 #include "cocos2d.h"
-#include "HashMap.h"
+#include "Tools/HashMap.h"
 #include "ResponseCommand.h"
 class SymbolLoader{
 public:

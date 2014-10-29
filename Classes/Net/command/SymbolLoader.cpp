@@ -7,8 +7,8 @@
 //
 
 #include "SymbolLoader.h"
-#include "../data/NetData.h"
-#include "HashMap.h"
+#include "Net/data/NetData.h"
+#include "Tools/HashMap.h"
 SymbolLoader* SymbolLoader::instanc = NULL;
 SymbolLoader* SymbolLoader::getInstance(){
     if(instanc == NULL){

@@ -13,7 +13,7 @@
 #include "cocos2d.h"
 #include "extensions/cocos-ext.h"
 #include "network/WebSocket.h"
-#include "HMessage.h"
+#include "Tools/HMessage.h"
 
 class MWebSocket : public cocos2d::network::WebSocket::Delegate
 {

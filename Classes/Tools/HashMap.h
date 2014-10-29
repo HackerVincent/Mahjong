@@ -10,7 +10,7 @@
 #define __Mahjong__HasMap__
 
 #include <stdio.h>
-#include "ResponseCommand.h"
+#include "Net/command/ResponseCommand.h"
 #include "cocos2d.h"
 #include "HashEntry.h"
 #include "HashEntry.h"

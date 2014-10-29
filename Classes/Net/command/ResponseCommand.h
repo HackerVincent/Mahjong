@@ -10,7 +10,7 @@
 #define __Mahjong__ResponseCommand__
 
 #include <stdio.h>
-#include "HMessage.h"
+#include "Tools/HMessage.h"
 class ResponseCommand{
     public :
     virtual void DealResponseCommand(HMessage* mes);

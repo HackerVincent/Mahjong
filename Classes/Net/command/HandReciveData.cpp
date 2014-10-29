@@ -7,7 +7,7 @@
 //
 
 #include "HandReciveData.h"
-#include "NetData.h"
+#include "Net/data/NetData.h"
 bool HandReciveData::isUseReciveThis = false;
 HandReciveData::HandReciveData(){
 }

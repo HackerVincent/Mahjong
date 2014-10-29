@@ -10,7 +10,7 @@
 #define __Mahjong__HashEntry__
 
 #include <stdio.h>
-#include "ResponseCommand.h"
+#include "Net/command/ResponseCommand.h"
 class HashEntry{
 private:
     ResponseCommand* rs;

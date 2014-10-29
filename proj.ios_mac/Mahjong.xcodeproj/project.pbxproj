@@ -33,8 +33,6 @@
 		40715DD419FE10A500F177EA /* MThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40715DD119FE10A500F177EA /* MThread.cpp */; };
 		408EF5A119FE348E0058B891 /* CommonCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408EF59F19FE348E0058B891 /* CommonCommand.cpp */; };
 		408EF5A219FE348E0058B891 /* CommonCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408EF59F19FE348E0058B891 /* CommonCommand.cpp */; };
-		408EF5A519FE35030058B891 /* HMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408EF5A319FE35030058B891 /* HMessage.cpp */; };
-		408EF5A619FE35030058B891 /* HMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408EF5A319FE35030058B891 /* HMessage.cpp */; };
 		40C134071A008DDA009ED36A /* HandReciveData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C134051A008DDA009ED36A /* HandReciveData.cpp */; };
 		40C134081A008DDA009ED36A /* HandReciveData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C134051A008DDA009ED36A /* HandReciveData.cpp */; };
 		40C1340E1A008E63009ED36A /* NetData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C1340C1A008E63009ED36A /* NetData.cpp */; };
@@ -47,6 +45,8 @@
 		40C134231A00998E009ED36A /* ResponseCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C134201A00998E009ED36A /* ResponseCommand.cpp */; };
 		40C134261A009A9E009ED36A /* HashEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C134241A009A9E009ED36A /* HashEntry.cpp */; };
 		40C134271A009A9E009ED36A /* HashEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C134241A009A9E009ED36A /* HashEntry.cpp */; };
+		40C1342A1A00B335009ED36A /* HMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C134281A00B335009ED36A /* HMessage.cpp */; };
+		40C1342B1A00B335009ED36A /* HMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C134281A00B335009ED36A /* HMessage.cpp */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
 		503AE10117EB989F00D1A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
@@ -258,8 +258,6 @@
 		40715DD219FE10A500F177EA /* MThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MThread.h; sourceTree = "<group>"; };
 		408EF59F19FE348E0058B891 /* CommonCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; path = CommonCommand.cpp; sourceTree = "<group>"; };
 		408EF5A019FE348E0058B891 /* CommonCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCommand.h; sourceTree = "<group>"; };
-		408EF5A319FE35030058B891 /* HMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HMessage.cpp; sourceTree = "<group>"; };
-		408EF5A419FE35030058B891 /* HMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMessage.h; sourceTree = "<group>"; };
 		40C134051A008DDA009ED36A /* HandReciveData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HandReciveData.cpp; sourceTree = "<group>"; };
 		40C134061A008DDA009ED36A /* HandReciveData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandReciveData.h; sourceTree = "<group>"; };
 		40C1340C1A008E63009ED36A /* NetData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetData.cpp; sourceTree = "<group>"; };
@@ -272,6 +270,8 @@
 		40C134211A00998E009ED36A /* ResponseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCommand.h; sourceTree = "<group>"; };
 		40C134241A009A9E009ED36A /* HashEntry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashEntry.cpp; sourceTree = "<group>"; };
 		40C134251A009A9E009ED36A /* HashEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashEntry.h; sourceTree = "<group>"; };
+		40C134281A00B335009ED36A /* HMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HMessage.cpp; sourceTree = "<group>"; };
+		40C134291A00B335009ED36A /* HMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMessage.h; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503AE0FA17EB989F00D1A890 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = SOURCE_ROOT; };
@@ -463,8 +463,6 @@
 				4057E99519FE1AA600CE4900 /* MWebSocket.h */,
 				40715DD119FE10A500F177EA /* MThread.cpp */,
 				40715DD219FE10A500F177EA /* MThread.h */,
-				408EF5A319FE35030058B891 /* HMessage.cpp */,
-				408EF5A419FE35030058B891 /* HMessage.h */,
 			);
 			name = Net;
 			path = ../Classes/Net;
@@ -483,6 +481,8 @@
 		40715DC319FE0D0300F177EA /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				40C134281A00B335009ED36A /* HMessage.cpp */,
+				40C134291A00B335009ED36A /* HMessage.h */,
 				40C134241A009A9E009ED36A /* HashEntry.cpp */,
 				40C134251A009A9E009ED36A /* HashEntry.h */,
 				40C1341C1A009944009ED36A /* HashMap.cpp */,
@@ -783,10 +783,10 @@
 				40C134261A009A9E009ED36A /* HashEntry.cpp in Sources */,
 				40C1340E1A008E63009ED36A /* NetData.cpp in Sources */,
 				4057E99619FE1AA600CE4900 /* MWebSocket.cpp in Sources */,
-				408EF5A519FE35030058B891 /* HMessage.cpp in Sources */,
 				408EF5A119FE348E0058B891 /* CommonCommand.cpp in Sources */,
 				40C134221A00998E009ED36A /* ResponseCommand.cpp in Sources */,
 				40C134141A009601009ED36A /* SymbolLoader.cpp in Sources */,
+				40C1342A1A00B335009ED36A /* HMessage.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				40715DD319FE10A500F177EA /* MThread.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
@@ -802,8 +802,8 @@
 				40C134081A008DDA009ED36A /* HandReciveData.cpp in Sources */,
 				40715DD419FE10A500F177EA /* MThread.cpp in Sources */,
 				5087E75717EB910900C73F5D /* AppDelegate.cpp in Sources */,
-				408EF5A619FE35030058B891 /* HMessage.cpp in Sources */,
 				5087E75817EB910900C73F5D /* HelloWorldScene.cpp in Sources */,
+				40C1342B1A00B335009ED36A /* HMessage.cpp in Sources */,
 				40C1341F1A009944009ED36A /* HashMap.cpp in Sources */,
 				40C134271A009A9E009ED36A /* HashEntry.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
@@ -893,13 +893,14 @@
 					"$(inherited)",
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios",
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios/Simulation",
+					"$(SRCROOT)/../Classes",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../Classes";
 			};
 			name = Debug;
 		};
@@ -922,13 +923,14 @@
 					"$(inherited)",
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios",
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios/Simulation",
+					"$(SRCROOT)/../Classes",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../Classes";
 			};
 			name = Release;
 		};
@@ -957,7 +959,7 @@
 				);
 				INFOPLIST_FILE = mac/Info.plist;
 				LIBRARY_SEARCH_PATHS = "";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../Classes";
 			};
 			name = Debug;
 		};
@@ -984,7 +986,7 @@
 				);
 				INFOPLIST_FILE = mac/Info.plist;
 				LIBRARY_SEARCH_PATHS = "";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../Classes";
 			};
 			name = Release;
 		};

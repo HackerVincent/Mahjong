@@ -1,6 +1,6 @@
 #include "HelloWorldScene.h"
 #include "Net/MWebSocket.h"
-#include "CommonCommand.h"
+#include "Net/command/CommonCommand.h"
 USING_NS_CC;
 
 Scene* HelloWorld::createScene()
