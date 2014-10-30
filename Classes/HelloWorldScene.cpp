@@ -31,7 +31,7 @@ bool HelloWorld::init()
 
 
     
-    auto label = LabelTTF::create("Hello World", "Arial", 24);
+    label = LabelTTF::create("Hello World", "Arial", 24);
     
     
     auto sendLabel = MenuItemFont::create("Send Text", CC_CALLBACK_0(HelloWorld::send, this));
@@ -66,8 +66,10 @@ void HelloWorld::send()
 {
 //    _socket->send();
     auto mess = new HMessage();
-    mess->putUTF8("法克鱿~");
+    mess->putUTF8("fuck~~~~~~");
+    // 发送消息
     CommonCommand::getInstance()->sendMessage(mess);
+
 }
 
 void HelloWorld::menuCloseCallback(Ref* pSender)

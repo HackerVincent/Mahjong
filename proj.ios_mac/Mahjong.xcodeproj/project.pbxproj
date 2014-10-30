@@ -47,6 +47,10 @@
 		40C134271A009A9E009ED36A /* HashEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C134241A009A9E009ED36A /* HashEntry.cpp */; };
 		40C1342A1A00B335009ED36A /* HMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C134281A00B335009ED36A /* HMessage.cpp */; };
 		40C1342B1A00B335009ED36A /* HMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C134281A00B335009ED36A /* HMessage.cpp */; };
+		40C134361A012075009ED36A /* ModelEnter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C134341A012075009ED36A /* ModelEnter.cpp */; };
+		40C134371A012075009ED36A /* ModelEnter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C134341A012075009ED36A /* ModelEnter.cpp */; };
+		40C1343C1A0121E2009ED36A /* RequestCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C1343A1A0121E2009ED36A /* RequestCommand.cpp */; };
+		40C1343D1A0121E2009ED36A /* RequestCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C1343A1A0121E2009ED36A /* RequestCommand.cpp */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
 		503AE10117EB989F00D1A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
@@ -272,6 +276,10 @@
 		40C134251A009A9E009ED36A /* HashEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashEntry.h; sourceTree = "<group>"; };
 		40C134281A00B335009ED36A /* HMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HMessage.cpp; sourceTree = "<group>"; };
 		40C134291A00B335009ED36A /* HMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMessage.h; sourceTree = "<group>"; };
+		40C134341A012075009ED36A /* ModelEnter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ModelEnter.cpp; sourceTree = "<group>"; };
+		40C134351A012075009ED36A /* ModelEnter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelEnter.h; sourceTree = "<group>"; };
+		40C1343A1A0121E2009ED36A /* RequestCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RequestCommand.cpp; sourceTree = "<group>"; };
+		40C1343B1A0121E2009ED36A /* RequestCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestCommand.h; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503AE0FA17EB989F00D1A890 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = SOURCE_ROOT; };
@@ -495,6 +503,10 @@
 		408EF59C19FE34760058B891 /* command */ = {
 			isa = PBXGroup;
 			children = (
+				40C1343A1A0121E2009ED36A /* RequestCommand.cpp */,
+				40C1343B1A0121E2009ED36A /* RequestCommand.h */,
+				40C134341A012075009ED36A /* ModelEnter.cpp */,
+				40C134351A012075009ED36A /* ModelEnter.h */,
 				40C134201A00998E009ED36A /* ResponseCommand.cpp */,
 				40C134211A00998E009ED36A /* ResponseCommand.h */,
 				40C134121A009601009ED36A /* SymbolLoader.cpp */,
@@ -783,10 +795,12 @@
 				40C134261A009A9E009ED36A /* HashEntry.cpp in Sources */,
 				40C1340E1A008E63009ED36A /* NetData.cpp in Sources */,
 				4057E99619FE1AA600CE4900 /* MWebSocket.cpp in Sources */,
+				40C1343C1A0121E2009ED36A /* RequestCommand.cpp in Sources */,
 				408EF5A119FE348E0058B891 /* CommonCommand.cpp in Sources */,
 				40C134221A00998E009ED36A /* ResponseCommand.cpp in Sources */,
 				40C134141A009601009ED36A /* SymbolLoader.cpp in Sources */,
 				40C1342A1A00B335009ED36A /* HMessage.cpp in Sources */,
+				40C134361A012075009ED36A /* ModelEnter.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				40715DD319FE10A500F177EA /* MThread.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
@@ -810,7 +824,9 @@
 				40C134231A00998E009ED36A /* ResponseCommand.cpp in Sources */,
 				40C134151A009601009ED36A /* SymbolLoader.cpp in Sources */,
 				40715DC719FE0D2800F177EA /* UI_Login.cpp in Sources */,
+				40C1343D1A0121E2009ED36A /* RequestCommand.cpp in Sources */,
 				4057E99719FE1AA600CE4900 /* MWebSocket.cpp in Sources */,
+				40C134371A012075009ED36A /* ModelEnter.cpp in Sources */,
 				408EF5A219FE348E0058B891 /* CommonCommand.cpp in Sources */,
 				40C1340F1A008E63009ED36A /* NetData.cpp in Sources */,
 			);

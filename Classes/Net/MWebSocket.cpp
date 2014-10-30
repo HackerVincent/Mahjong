@@ -55,20 +55,20 @@ bool MWebSocket::init()
 //    {
 //        CC_SAFE_DELETE(_wsiError);
 //    }
-    if (!_wsiSendText->init(*this, "ws://echo.websocket.org"))
-    {
-        CC_SAFE_DELETE(_wsiSendText);
-    }
+//    if (!_wsiSendText->init(*this, "ws://echo.websocket.org"))
+//    {
+//        CC_SAFE_DELETE(_wsiSendText);
+//    }
     
     if (!_wsiSendBinary->init(*this, "ws://echo.websocket.org"))
     {
         CC_SAFE_DELETE(_wsiSendBinary);
     }
     
-    if (!_wsiError->init(*this, "ws://invalid.url.com"))
-    {
-        CC_SAFE_DELETE(_wsiError);
-    }
+//    if (!_wsiError->init(*this, "ws://invalid.url.com"))
+//    {
+//        CC_SAFE_DELETE(_wsiError);
+//    }
     return true;
 }
 
@@ -126,10 +126,10 @@ void MWebSocket::onMessage(cocos2d::network::WebSocket *ws, const cocos2d::netwo
         char times[100] = {0};
         sprintf(times, "%d", _sendBinaryTimes);
         
-        auto mess1 = new HMessage((uint8_t*)data.bytes,data.len);
-        CCLOG("%s--->",mess1->getBuf());
+        char* recvBuf = data.bytes;
         
-//        std::string binaryStr = "response bin msg: ";
+        auto mess1 = new HMessage((uint8_t*)recvBuf,data.len);
+        CCLOG("%s--->",mess1->getBuf());
         std::string binaryStr;
         for (int i = 0; i < data.len; ++i) {
             if (data.bytes[i] != '\0')
@@ -142,8 +142,8 @@ void MWebSocket::onMessage(cocos2d::network::WebSocket *ws, const cocos2d::netwo
             }
         }
         
-//        HMessage* mess = new HMessage((uint8_t*)binaryStr.c_str(),6);
-//        CCLOG("%s",mess->getBuf());
+        HMessage* mess = new HMessage((uint8_t*)binaryStr.c_str(),data.len);
+        CCLOG("%s",mess->getBuf());
         binaryStr += std::string(", ")+times;
         log("%s", binaryStr.c_str());
     }
@@ -162,12 +162,12 @@ void MWebSocket::onError(network::WebSocket* ws, const network::WebSocket::Error
 
 void MWebSocket::send(HMessage* mess)
 {
-    if (! _wsiSendText)
+    if (! _wsiSendBinary)
     {
         return;
     }
     
-    if (_wsiSendText->getReadyState() == network::WebSocket::State::OPEN)
+    if (_wsiSendBinary->getReadyState() == network::WebSocket::State::OPEN)
     {
         uint8_t* buffer = mess->getBuf();
         _wsiSendBinary->send((unsigned char*)buffer,mess->getlengths());

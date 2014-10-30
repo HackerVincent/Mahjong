@@ -16,7 +16,7 @@ public:
     // a selector callback
     void menuCloseCallback(cocos2d::Ref* pSender);
     
-    
+    cocos2d::LabelTTF* label;
     void send();
     
     // implement the "static create()" method manually

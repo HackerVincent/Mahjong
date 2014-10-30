@@ -70,17 +70,31 @@ void CommonCommand::stop(){
         instance = NULL;
     }
 }
-/*******************∑¢ÀÕ*************************/
+/*******************发送消息*************************/
 bool CommonCommand::sendMessage(HMessage* mes){
     mSocket->send(mes);
-//    HMessage* mess = new HMessage();
-//    mess->putInt(mes->getlengths());
-//    mess->putBytes(mes->getBuf(),mes->getlengths());
-//    int result = mSocket->send((unsigned char*)(mess->getBuf()),mess->getlengths());
-//    return (result != -1);
+    // 消息头
+    auto messHead = new HMessage();
+    /******* 消息头部 *******/
+    messHead->putShort(-1000);                  // prefix 数据开始标志 传  -1000
+    messHead->putInt(0);                        // occupy 占位  传0
+    messHead->putInt(1001);                     // uid 玩家id
+    messHead->putInt(101);                      // channelId 请求标志
+    messHead->putUTF8("");                      // skey 验证用 传空字符串
+    // 预留两个int位
+    messHead->skip(4);                          // totalLen 消息总长
+    messHead->skip(4);                          // dataLen 数据区长度
+    // 数据区
+    messHead->putBytes(mes->getBuf(), mes->getlengths());
+    /******* 消息尾部 ******/
+    messHead->putInt(-2000);                    // 消息尾部surffix,数据结尾标志 传  -2000
+    // 传入消息总长以及数据区长度
+    messHead->setPosition(messHead->position() - mes->getlengths() - 4 * 2);
+    messHead->putInt(messHead->getlengths() + 4);
+    messHead->putInt(mes->getlengths());
     return 1;
 }
-/******************Ω” ’**********************/
+/******************接受消息**********************/
 uint8_t CommonCommand::get(){
     char recvBuf[64] = "\0";
 //    mSocket.Recv(recvBuf,1,0);
