@@ -51,6 +51,8 @@
 		40C134371A012075009ED36A /* ModelEnter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C134341A012075009ED36A /* ModelEnter.cpp */; };
 		40C1343C1A0121E2009ED36A /* RequestCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C1343A1A0121E2009ED36A /* RequestCommand.cpp */; };
 		40C1343D1A0121E2009ED36A /* RequestCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C1343A1A0121E2009ED36A /* RequestCommand.cpp */; };
+		40E96FD91A027C680047E097 /* NetLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40E96FD71A027C680047E097 /* NetLogic.cpp */; };
+		40E96FDA1A027C680047E097 /* NetLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40E96FD71A027C680047E097 /* NetLogic.cpp */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
 		503AE10117EB989F00D1A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
@@ -280,6 +282,8 @@
 		40C134351A012075009ED36A /* ModelEnter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelEnter.h; sourceTree = "<group>"; };
 		40C1343A1A0121E2009ED36A /* RequestCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RequestCommand.cpp; sourceTree = "<group>"; };
 		40C1343B1A0121E2009ED36A /* RequestCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestCommand.h; sourceTree = "<group>"; };
+		40E96FD71A027C680047E097 /* NetLogic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetLogic.cpp; sourceTree = "<group>"; };
+		40E96FD81A027C680047E097 /* NetLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetLogic.h; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503AE0FA17EB989F00D1A890 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = SOURCE_ROOT; };
@@ -465,6 +469,8 @@
 		40715DC119FE0D0300F177EA /* Net */ = {
 			isa = PBXGroup;
 			children = (
+				40E96FD71A027C680047E097 /* NetLogic.cpp */,
+				40E96FD81A027C680047E097 /* NetLogic.h */,
 				40C1340B1A008E52009ED36A /* data */,
 				408EF59C19FE34760058B891 /* command */,
 				4057E99419FE1AA600CE4900 /* MWebSocket.cpp */,
@@ -805,6 +811,7 @@
 				40715DD319FE10A500F177EA /* MThread.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,
+				40E96FD91A027C680047E097 /* NetLogic.cpp in Sources */,
 				40C134071A008DDA009ED36A /* HandReciveData.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -816,6 +823,7 @@
 				40C134081A008DDA009ED36A /* HandReciveData.cpp in Sources */,
 				40715DD419FE10A500F177EA /* MThread.cpp in Sources */,
 				5087E75717EB910900C73F5D /* AppDelegate.cpp in Sources */,
+				40E96FDA1A027C680047E097 /* NetLogic.cpp in Sources */,
 				5087E75817EB910900C73F5D /* HelloWorldScene.cpp in Sources */,
 				40C1342B1A00B335009ED36A /* HMessage.cpp in Sources */,
 				40C1341F1A009944009ED36A /* HashMap.cpp in Sources */,
