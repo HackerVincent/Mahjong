@@ -17,7 +17,11 @@ public:
     void menuCloseCallback(cocos2d::Ref* pSender);
     
     cocos2d::LabelTTF* label;
+    
+    cocos2d::LabelTTF* labelShow;
     void send();
+    
+    void update(float dt);
     
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);

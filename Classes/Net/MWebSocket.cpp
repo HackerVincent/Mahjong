@@ -60,7 +60,11 @@ bool MWebSocket::init()
 //        CC_SAFE_DELETE(_wsiSendText);
 //    }
     
-    if (!_wsiSendBinary->init(*this, "ws://echo.websocket.org"))
+//    if (!_wsiSendBinary->init(*this, "ws://echo.websocket.org"))
+//    {
+//        CC_SAFE_DELETE(_wsiSendBinary);
+//    }
+    if (!_wsiSendBinary->init(*this, "ws://127.0.0.1:8081/websocket"))
     {
         CC_SAFE_DELETE(_wsiSendBinary);
     }

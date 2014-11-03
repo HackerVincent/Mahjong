@@ -1,16 +1,16 @@
 ./obj/local/armeabi/objs-debug/cocos2dcpp_shared/__/__/Classes/HelloWorldScene.o: \
   jni/../../Classes/HelloWorldScene.cpp \
   jni/../../Classes/HelloWorldScene.h \
-  jni/../../cocos2d/cocos/./cocos2d.h \
-  jni/../../cocos2d/cocos/./base/ccConfig.h \
-  jni/../../cocos2d/cocos/./base/CCPlatformConfig.h \
-  jni/../../cocos2d/cocos/./base/CCRef.h \
-  jni/../../cocos2d/cocos/./base/CCPlatformMacros.h \
-  jni/../../cocos2d/cocos/./platform/android/CCPlatformDefine.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./cocos2d.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/ccConfig.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCPlatformConfig.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCRef.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCPlatformMacros.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/android/CCPlatformDefine.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/android/log.h \
-  jni/../../cocos2d/cocos/./base/CCRefPtr.h \
-  jni/../../cocos2d/cocos/./base/ccMacros.h \
-  jni/../../cocos2d/cocos/./base/CCConsole.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCRefPtr.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/ccMacros.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCConsole.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/select.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -106,7 +106,7 @@
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/ctype.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/ctype.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/mutex \
-  jni/../../cocos2d/cocos/./platform/android/CCStdC.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/android/CCStdC.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/math.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/stdlib.h \
@@ -116,139 +116,139 @@
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/memory.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/cassert \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/assert.h \
-  jni/../../cocos2d/cocos/./base/CCVector.h \
-  jni/../../cocos2d/cocos/./base/CCMap.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCVector.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCMap.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/unordered_map \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/__hash_table \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/cmath \
-  jni/../../cocos2d/cocos/./base/CCAutoreleasePool.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCAutoreleasePool.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/stack \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/deque \
-  jni/../../cocos2d/cocos/./base/CCNS.h \
-  jni/../../cocos2d/cocos/./math/CCGeometry.h \
-  jni/../../cocos2d/cocos/./math/CCMath.h \
-  jni/../../cocos2d/cocos/./math/Vec2.h \
-  jni/../../cocos2d/cocos/./math/CCMathBase.h \
-  jni/../../cocos2d/cocos/./math/Vec2.inl \
-  jni/../../cocos2d/cocos/./math/Vec3.h \
-  jni/../../cocos2d/cocos/./math/Vec3.inl \
-  jni/../../cocos2d/cocos/./math/Mat4.h \
-  jni/../../cocos2d/cocos/./math/Vec4.h \
-  jni/../../cocos2d/cocos/./math/Vec4.inl \
-  jni/../../cocos2d/cocos/./math/Mat4.inl \
-  jni/../../cocos2d/cocos/./math/Quaternion.h \
-  jni/../../cocos2d/cocos/./math/Quaternion.inl \
-  jni/../../cocos2d/cocos/./base/CCData.h \
-  jni/../../cocos2d/cocos/./base/CCValue.h \
-  jni/../../cocos2d/cocos/./base/ccTypes.h \
-  jni/../../cocos2d/cocos/./platform/android/CCGL.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCNS.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/CCGeometry.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/CCMath.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Vec2.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/CCMathBase.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Vec2.inl \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Vec3.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Vec3.inl \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Mat4.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Vec4.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Vec4.inl \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Mat4.inl \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Quaternion.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Quaternion.inl \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCData.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCValue.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/ccTypes.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/android/CCGL.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/GLES2/gl2platform.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/KHR/khrplatform.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/GLES2/gl2.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/GLES2/gl2ext.h \
-  jni/../../cocos2d/cocos/./base/CCConfiguration.h \
-  jni/../../cocos2d/cocos/./base/CCDirector.h \
-  jni/../../cocos2d/cocos/./2d/CCLabelAtlas.h \
-  jni/../../cocos2d/cocos/./2d/CCAtlasNode.h \
-  jni/../../cocos2d/cocos/./2d/CCNode.h \
-  jni/../../cocos2d/cocos/./base/CCEventDispatcher.h \
-  jni/../../cocos2d/cocos/./base/CCEventListener.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCConfiguration.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCDirector.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCLabelAtlas.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCAtlasNode.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCNode.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventDispatcher.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventListener.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/set \
-  jni/../../cocos2d/cocos/./base/CCEvent.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEvent.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/list \
-  jni/../../cocos2d/cocos/./base/CCScriptSupport.h \
-  jni/../../cocos2d/cocos/./platform/CCCommon.h \
-  jni/../../cocos2d/cocos/./base/CCTouch.h \
-  jni/../../cocos2d/cocos/./base/CCEventTouch.h \
-  jni/../../cocos2d/cocos/./base/CCEventKeyboard.h \
-  jni/../../cocos2d/cocos/./base/CCProtocols.h \
-  jni/../../cocos2d/cocos/./renderer/CCTexture2D.h \
-  jni/../../cocos2d/cocos/./math/CCAffineTransform.h \
-  jni/../../cocos2d/cocos/./renderer/ccGLStateCache.h \
-  jni/../../cocos2d/cocos/./renderer/CCQuadCommand.h \
-  jni/../../cocos2d/cocos/./renderer/CCRenderCommand.h \
-  jni/../../cocos2d/cocos/./renderer/CCGLProgramState.h \
-  jni/../../cocos2d/cocos/./renderer/CCRenderCommandPool.h \
-  jni/../../cocos2d/cocos/./base/CCScheduler.h \
-  jni/../../cocos2d/cocos/./base/uthash.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCScriptSupport.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/CCCommon.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCTouch.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventTouch.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventKeyboard.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCProtocols.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCTexture2D.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/CCAffineTransform.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/ccGLStateCache.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCQuadCommand.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCRenderCommand.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCGLProgramState.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCRenderCommandPool.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCScheduler.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/uthash.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/inttypes.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/inttypes.h \
-  jni/../../cocos2d/cocos/./base/base64.h \
-  jni/../../cocos2d/cocos/./base/ZipUtils.h \
-  jni/../../cocos2d/cocos/./platform/android/CCFileUtilsAndroid.h \
-  jni/../../cocos2d/cocos/./platform/CCFileUtils.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/base64.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/ZipUtils.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/android/CCFileUtilsAndroid.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/CCFileUtils.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/jni.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/android/asset_manager.h \
-  jni/../../cocos2d/cocos/./base/CCProfiling.h \
-  jni/../../cocos2d/cocos/./base/ccUTF8.h \
-  jni/../../cocos2d/cocos/./base/CCUserDefault.h \
-  jni/../../cocos2d/cocos/./base/CCIMEDelegate.h \
-  jni/../../cocos2d/cocos/./base/CCIMEDispatcher.h \
-  jni/../../cocos2d/cocos/./base/ccUtils.h \
-  jni/../../cocos2d/cocos/./base/CCEventType.h \
-  jni/../../cocos2d/cocos/./base/CCEventListenerTouch.h \
-  jni/../../cocos2d/cocos/./base/CCEventListenerKeyboard.h \
-  jni/../../cocos2d/cocos/./base/CCEventListenerMouse.h \
-  jni/../../cocos2d/cocos/./base/CCEventMouse.h \
-  jni/../../cocos2d/cocos/./base/CCEventAcceleration.h \
-  jni/../../cocos2d/cocos/./base/CCEventListenerAcceleration.h \
-  jni/../../cocos2d/cocos/./base/CCEventCustom.h \
-  jni/../../cocos2d/cocos/./base/CCEventListenerCustom.h \
-  jni/../../cocos2d/cocos/./base/CCEventFocus.h \
-  jni/../../cocos2d/cocos/./base/CCEventListenerFocus.h \
-  jni/../../cocos2d/cocos/./math/MathUtil.h \
-  jni/../../cocos2d/cocos/./math/MathUtil.inl \
-  jni/../../cocos2d/cocos/./math/CCVertex.h \
-  jni/../../cocos2d/cocos/./2d/CCAction.h \
-  jni/../../cocos2d/cocos/./2d/CCActionInterval.h \
-  jni/../../cocos2d/cocos/./2d/CCSpriteFrame.h \
-  jni/../../cocos2d/cocos/./2d/CCAnimation.h \
-  jni/../../cocos2d/cocos/./2d/CCActionCamera.h \
-  jni/../../cocos2d/cocos/./2d/CCActionManager.h \
-  jni/../../cocos2d/cocos/./2d/CCActionEase.h \
-  jni/../../cocos2d/cocos/./2d/CCActionPageTurn3D.h \
-  jni/../../cocos2d/cocos/./2d/CCActionGrid3D.h \
-  jni/../../cocos2d/cocos/./2d/CCActionGrid.h \
-  jni/../../cocos2d/cocos/./2d/CCActionInstant.h \
-  jni/../../cocos2d/cocos/./2d/CCActionProgressTimer.h \
-  jni/../../cocos2d/cocos/./2d/CCActionTiledGrid.h \
-  jni/../../cocos2d/cocos/./2d/CCActionTween.h \
-  jni/../../cocos2d/cocos/./2d/CCActionCatmullRom.h \
-  jni/../../cocos2d/cocos/./2d/CCTweenFunction.h \
-  jni/../../cocos2d/cocos/./2d/CCDrawingPrimitives.h \
-  jni/../../cocos2d/cocos/./2d/CCDrawNode.h \
-  jni/../../cocos2d/cocos/./renderer/CCCustomCommand.h \
-  jni/../../cocos2d/cocos/./2d/CCLabelTTF.h \
-  jni/../../cocos2d/cocos/./2d/CCLabelBMFont.h \
-  jni/../../cocos2d/cocos/./2d/CCLabel.h \
-  jni/../../cocos2d/cocos/./2d/CCSpriteBatchNode.h \
-  jni/../../cocos2d/cocos/./renderer/CCTextureAtlas.h \
-  jni/../../cocos2d/cocos/./renderer/CCBatchCommand.h \
-  jni/../../cocos2d/cocos/./renderer/CCGLProgram.h \
-  jni/../../cocos2d/cocos/./2d/CCFontAtlas.h \
-  jni/../../cocos2d/cocos/./2d/CCFontFNT.h \
-  jni/../../cocos2d/cocos/./2d/CCFont.h \
-  jni/../../cocos2d/cocos/./2d/CCLayer.h \
-  jni/../../cocos2d/cocos/./physics/CCPhysicsWorld.h \
-  jni/../../cocos2d/cocos/./2d/CCScene.h \
-  jni/../../cocos2d/cocos/./2d/CCTransition.h \
-  jni/../../cocos2d/cocos/./2d/CCTransitionPageTurn.h \
-  jni/../../cocos2d/cocos/./2d/CCTransitionProgress.h \
-  jni/../../cocos2d/cocos/./2d/CCMenu.h \
-  jni/../../cocos2d/cocos/./2d/CCMenuItem.h \
-  jni/../../cocos2d/cocos/./2d/CCClippingNode.h \
-  jni/../../cocos2d/cocos/./renderer/CCGroupCommand.h \
-  jni/../../cocos2d/cocos/./2d/CCMotionStreak.h \
-  jni/../../cocos2d/cocos/./2d/CCProgressTimer.h \
-  jni/../../cocos2d/cocos/./2d/CCSprite.h \
-  jni/../../cocos2d/cocos/./physics/CCPhysicsBody.h \
-  jni/../../cocos2d/cocos/./physics/CCPhysicsShape.h \
-  jni/../../cocos2d/cocos/./2d/CCRenderTexture.h \
-  jni/../../cocos2d/cocos/./platform/CCImage.h \
-  jni/../../cocos2d/cocos/./2d/CCNodeGrid.h \
-  jni/../../cocos2d/cocos/./2d/CCParticleBatchNode.h \
-  jni/../../cocos2d/cocos/./2d/CCParticleSystem.h \
-  jni/../../cocos2d/cocos/./deprecated/CCString.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCProfiling.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/ccUTF8.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCUserDefault.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCIMEDelegate.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCIMEDispatcher.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/ccUtils.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventType.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventListenerTouch.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventListenerKeyboard.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventListenerMouse.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventMouse.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventAcceleration.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventListenerAcceleration.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventCustom.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventListenerCustom.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventFocus.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventListenerFocus.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/MathUtil.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/MathUtil.inl \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/CCVertex.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCAction.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionInterval.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCSpriteFrame.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCAnimation.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionCamera.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionManager.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionEase.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionPageTurn3D.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionGrid3D.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionGrid.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionInstant.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionProgressTimer.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionTiledGrid.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionTween.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionCatmullRom.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTweenFunction.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCDrawingPrimitives.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCDrawNode.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCCustomCommand.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCLabelTTF.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCLabelBMFont.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCLabel.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCSpriteBatchNode.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCTextureAtlas.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCBatchCommand.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCGLProgram.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCFontAtlas.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCFontFNT.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCFont.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCLayer.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./physics/CCPhysicsWorld.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCScene.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTransition.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTransitionPageTurn.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTransitionProgress.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCMenu.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCMenuItem.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCClippingNode.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCGroupCommand.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCMotionStreak.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCProgressTimer.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCSprite.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./physics/CCPhysicsBody.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./physics/CCPhysicsShape.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCRenderTexture.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/CCImage.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCNodeGrid.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCParticleBatchNode.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCParticleSystem.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCString.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/sstream \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/ostream \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/ios \
@@ -262,110 +262,111 @@
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/nl_types.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/bitset \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/istream \
-  jni/../../cocos2d/cocos/./deprecated/CCArray.h \
-  jni/../../cocos2d/cocos/./base/ccCArray.h \
-  jni/../../cocos2d/cocos/./base/CCDataVisitor.h \
-  jni/../../cocos2d/cocos/./2d/CCParticleExamples.h \
-  jni/../../cocos2d/cocos/./2d/CCParticleSystemQuad.h \
-  jni/../../cocos2d/cocos/./2d/CCGrabber.h \
-  jni/../../cocos2d/cocos/./2d/CCGrid.h \
-  jni/../../cocos2d/cocos/./renderer/CCRenderer.h \
-  jni/../../cocos2d/cocos/./renderer/CCGLProgramCache.h \
-  jni/../../cocos2d/cocos/./renderer/ccShaders.h \
-  jni/../../cocos2d/cocos/./renderer/CCTextureCache.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCArray.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/ccCArray.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCDataVisitor.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCParticleExamples.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCParticleSystemQuad.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCGrabber.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCGrid.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCRenderer.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCGLProgramCache.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/ccShaders.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCTextureCache.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/condition_variable \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/queue \
-  jni/../../cocos2d/cocos/./physics/CCPhysicsContact.h \
-  jni/../../cocos2d/cocos/./physics/CCPhysicsJoint.h \
-  jni/../../cocos2d/cocos/./platform/CCDevice.h \
-  jni/../../cocos2d/cocos/./platform/CCSAXParser.h \
-  jni/../../cocos2d/cocos/./platform/CCThread.h \
-  jni/../../cocos2d/cocos/./platform/android/CCApplication.h \
-  jni/../../cocos2d/cocos/./platform/CCApplicationProtocol.h \
-  jni/../../cocos2d/cocos/./platform/android/CCGLView.h \
-  jni/../../cocos2d/cocos/./platform/CCGLViewProtocol.h \
-  jni/../../cocos2d/cocos/./2d/CCAnimationCache.h \
-  jni/../../cocos2d/cocos/./2d/CCSpriteFrameCache.h \
-  jni/../../cocos2d/cocos/./2d/CCTextFieldTTF.h \
-  jni/../../cocos2d/cocos/./2d/CCParallaxNode.h \
-  jni/../../cocos2d/cocos/./2d/CCTMXLayer.h \
-  jni/../../cocos2d/cocos/./2d/CCTMXObjectGroup.h \
-  jni/../../cocos2d/cocos/./2d/CCTMXXMLParser.h \
-  jni/../../cocos2d/cocos/./2d/CCTMXTiledMap.h \
-  jni/../../cocos2d/cocos/./2d/CCTileMapAtlas.h \
-  jni/../../cocos2d/cocos/./2d/CCFastTMXTiledMap.h \
-  jni/../../cocos2d/cocos/./2d/CCFastTMXLayer.h \
-  jni/../../cocos2d/cocos/./2d/CCComponent.h \
-  jni/../../cocos2d/cocos/./2d/CCComponentContainer.h \
-  jni/../../cocos2d/cocos/./3d/CCSprite3D.h \
-  jni/../../cocos2d/cocos/./renderer/CCMeshCommand.h \
-  jni/../../cocos2d/cocos/./3d/CCMesh.h \
-  jni/../../cocos2d/cocos/./3d/CCBundle3DData.h \
-  jni/../../cocos2d/cocos/./3d/CCMeshSkin.h \
-  jni/../../cocos2d/cocos/./3d/CCAnimate3D.h \
-  jni/../../cocos2d/cocos/./3d/CCAnimation3D.h \
-  jni/../../cocos2d/cocos/./3d/CCAnimationCurve.h \
-  jni/../../cocos2d/cocos/./3d/CCAnimationCurve.inl \
-  jni/../../cocos2d/cocos/./3d/CCSprite3DMaterial.h \
-  jni/../../cocos2d/cocos/./audio/include/SimpleAudioEngine.h \
-  jni/../../cocos2d/cocos/audio/android/../include/Export.h \
-  jni/../../cocos2d/cocos/./deprecated/CCDictionary.h \
-  jni/../../cocos2d/cocos/./deprecated/CCSet.h \
-  jni/../../cocos2d/cocos/./deprecated/CCInteger.h \
-  jni/../../cocos2d/cocos/./deprecated/CCFloat.h \
-  jni/../../cocos2d/cocos/./deprecated/CCDouble.h \
-  jni/../../cocos2d/cocos/./deprecated/CCBool.h \
-  jni/../../cocos2d/cocos/./deprecated/CCNotificationCenter.h \
-  jni/../../cocos2d/cocos/./deprecated/CCDeprecated.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./physics/CCPhysicsContact.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./physics/CCPhysicsJoint.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/CCDevice.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/CCSAXParser.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/CCThread.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/android/CCApplication.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/CCApplicationProtocol.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/android/CCGLView.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/CCGLViewProtocol.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCAnimationCache.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCSpriteFrameCache.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTextFieldTTF.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCParallaxNode.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTMXLayer.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTMXObjectGroup.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTMXXMLParser.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTMXTiledMap.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTileMapAtlas.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCFastTMXTiledMap.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCFastTMXLayer.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCComponent.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCComponentContainer.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCSprite3D.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCMeshCommand.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCMesh.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCBundle3DData.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCMeshSkin.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCAnimate3D.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCAnimation3D.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCAnimationCurve.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCAnimationCurve.inl \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCSprite3DMaterial.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./audio/include/SimpleAudioEngine.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/audio/android/../include/Export.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCDictionary.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCSet.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCInteger.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCFloat.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCDouble.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCBool.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCNotificationCenter.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCDeprecated.h \
   jni/../../Classes/Net/MWebSocket.h \
-  jni/../../cocos2d/extensions/../extensions/cocos-ext.h \
-  jni/../../cocos2d/extensions/../extensions/ExtensionMacros.h \
-  jni/../../cocos2d/extensions/../extensions/GUI/CCControlExtension/CCControlExtensions.h \
-  jni/../../cocos2d/extensions/GUI/CCControlExtension/CCScale9Sprite.h \
-  jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControl.h \
-  jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlUtils.h \
-  jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlButton.h \
-  jni/../../cocos2d/extensions/GUI/CCControlExtension/CCInvocation.h \
-  jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlColourPicker.h \
-  jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlHuePicker.h \
-  jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h \
-  jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlPotentiometer.h \
-  jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlSlider.h \
-  jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlStepper.h \
-  jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlSwitch.h \
-  jni/../../cocos2d/extensions/../extensions/GUI/CCScrollView/CCScrollView.h \
-  jni/../../cocos2d/extensions/../extensions/GUI/CCScrollView/CCTableView.h \
-  jni/../../cocos2d/extensions/GUI/CCScrollView/CCTableViewCell.h \
-  jni/../../cocos2d/extensions/../extensions/GUI/CCEditBox/CCEditBox.h \
-  jni/../../cocos2d/extensions/../extensions/physics-nodes/CCPhysicsDebugNode.h \
-  jni/../../cocos2d/extensions/../extensions/physics-nodes/CCPhysicsSprite.h \
-  jni/../../cocos2d/extensions/../extensions/assets-manager/AssetsManager.h \
-  jni/../../cocos2d/cocos/./network/WebSocket.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/cocos-ext.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/ExtensionMacros.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/GUI/CCControlExtension/CCControlExtensions.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCScale9Sprite.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControl.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlUtils.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlButton.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCInvocation.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlColourPicker.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlHuePicker.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlPotentiometer.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlSlider.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlStepper.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlSwitch.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/GUI/CCScrollView/CCScrollView.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/GUI/CCScrollView/CCTableView.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCScrollView/CCTableViewCell.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/GUI/CCEditBox/CCEditBox.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/physics-nodes/CCPhysicsDebugNode.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/physics-nodes/CCPhysicsSprite.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/assets-manager/AssetsManager.h \
+  /Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./network/WebSocket.h \
   jni/../../Classes/Tools/HMessage.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/iostream \
-  jni/../../Classes/Net/command/CommonCommand.h
+  jni/../../Classes/Net/command/CommonCommand.h \
+  jni/../../Classes/Scene/UI_Login.h
 
 jni/../../Classes/HelloWorldScene.h:
 
-jni/../../cocos2d/cocos/./cocos2d.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./cocos2d.h:
 
-jni/../../cocos2d/cocos/./base/ccConfig.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/ccConfig.h:
 
-jni/../../cocos2d/cocos/./base/CCPlatformConfig.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCPlatformConfig.h:
 
-jni/../../cocos2d/cocos/./base/CCRef.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCRef.h:
 
-jni/../../cocos2d/cocos/./base/CCPlatformMacros.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCPlatformMacros.h:
 
-jni/../../cocos2d/cocos/./platform/android/CCPlatformDefine.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/android/CCPlatformDefine.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/android/log.h:
 
-jni/../../cocos2d/cocos/./base/CCRefPtr.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCRefPtr.h:
 
-jni/../../cocos2d/cocos/./base/ccMacros.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/ccMacros.h:
 
-jni/../../cocos2d/cocos/./base/CCConsole.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCConsole.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/select.h:
 
@@ -557,7 +558,7 @@ jni/../../cocos2d/cocos/./base/CCConsole.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/mutex:
 
-jni/../../cocos2d/cocos/./platform/android/CCStdC.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/android/CCStdC.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h:
 
@@ -577,9 +578,9 @@ jni/../../cocos2d/cocos/./platform/android/CCStdC.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/assert.h:
 
-jni/../../cocos2d/cocos/./base/CCVector.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCVector.h:
 
-jni/../../cocos2d/cocos/./base/CCMap.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCMap.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/unordered_map:
 
@@ -587,47 +588,47 @@ jni/../../cocos2d/cocos/./base/CCMap.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/cmath:
 
-jni/../../cocos2d/cocos/./base/CCAutoreleasePool.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCAutoreleasePool.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/stack:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/deque:
 
-jni/../../cocos2d/cocos/./base/CCNS.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCNS.h:
 
-jni/../../cocos2d/cocos/./math/CCGeometry.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/CCGeometry.h:
 
-jni/../../cocos2d/cocos/./math/CCMath.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/CCMath.h:
 
-jni/../../cocos2d/cocos/./math/Vec2.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Vec2.h:
 
-jni/../../cocos2d/cocos/./math/CCMathBase.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/CCMathBase.h:
 
-jni/../../cocos2d/cocos/./math/Vec2.inl:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Vec2.inl:
 
-jni/../../cocos2d/cocos/./math/Vec3.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Vec3.h:
 
-jni/../../cocos2d/cocos/./math/Vec3.inl:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Vec3.inl:
 
-jni/../../cocos2d/cocos/./math/Mat4.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Mat4.h:
 
-jni/../../cocos2d/cocos/./math/Vec4.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Vec4.h:
 
-jni/../../cocos2d/cocos/./math/Vec4.inl:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Vec4.inl:
 
-jni/../../cocos2d/cocos/./math/Mat4.inl:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Mat4.inl:
 
-jni/../../cocos2d/cocos/./math/Quaternion.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Quaternion.h:
 
-jni/../../cocos2d/cocos/./math/Quaternion.inl:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/Quaternion.inl:
 
-jni/../../cocos2d/cocos/./base/CCData.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCData.h:
 
-jni/../../cocos2d/cocos/./base/CCValue.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCValue.h:
 
-jni/../../cocos2d/cocos/./base/ccTypes.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/ccTypes.h:
 
-jni/../../cocos2d/cocos/./platform/android/CCGL.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/android/CCGL.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/GLES2/gl2platform.h:
 
@@ -637,211 +638,211 @@ jni/../../cocos2d/cocos/./platform/android/CCGL.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/GLES2/gl2ext.h:
 
-jni/../../cocos2d/cocos/./base/CCConfiguration.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCConfiguration.h:
 
-jni/../../cocos2d/cocos/./base/CCDirector.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCDirector.h:
 
-jni/../../cocos2d/cocos/./2d/CCLabelAtlas.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCLabelAtlas.h:
 
-jni/../../cocos2d/cocos/./2d/CCAtlasNode.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCAtlasNode.h:
 
-jni/../../cocos2d/cocos/./2d/CCNode.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCNode.h:
 
-jni/../../cocos2d/cocos/./base/CCEventDispatcher.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventDispatcher.h:
 
-jni/../../cocos2d/cocos/./base/CCEventListener.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventListener.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/set:
 
-jni/../../cocos2d/cocos/./base/CCEvent.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEvent.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/list:
 
-jni/../../cocos2d/cocos/./base/CCScriptSupport.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCScriptSupport.h:
 
-jni/../../cocos2d/cocos/./platform/CCCommon.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/CCCommon.h:
 
-jni/../../cocos2d/cocos/./base/CCTouch.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCTouch.h:
 
-jni/../../cocos2d/cocos/./base/CCEventTouch.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventTouch.h:
 
-jni/../../cocos2d/cocos/./base/CCEventKeyboard.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventKeyboard.h:
 
-jni/../../cocos2d/cocos/./base/CCProtocols.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCProtocols.h:
 
-jni/../../cocos2d/cocos/./renderer/CCTexture2D.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCTexture2D.h:
 
-jni/../../cocos2d/cocos/./math/CCAffineTransform.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/CCAffineTransform.h:
 
-jni/../../cocos2d/cocos/./renderer/ccGLStateCache.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/ccGLStateCache.h:
 
-jni/../../cocos2d/cocos/./renderer/CCQuadCommand.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCQuadCommand.h:
 
-jni/../../cocos2d/cocos/./renderer/CCRenderCommand.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCRenderCommand.h:
 
-jni/../../cocos2d/cocos/./renderer/CCGLProgramState.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCGLProgramState.h:
 
-jni/../../cocos2d/cocos/./renderer/CCRenderCommandPool.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCRenderCommandPool.h:
 
-jni/../../cocos2d/cocos/./base/CCScheduler.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCScheduler.h:
 
-jni/../../cocos2d/cocos/./base/uthash.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/uthash.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/inttypes.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/inttypes.h:
 
-jni/../../cocos2d/cocos/./base/base64.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/base64.h:
 
-jni/../../cocos2d/cocos/./base/ZipUtils.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/ZipUtils.h:
 
-jni/../../cocos2d/cocos/./platform/android/CCFileUtilsAndroid.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/android/CCFileUtilsAndroid.h:
 
-jni/../../cocos2d/cocos/./platform/CCFileUtils.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/CCFileUtils.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/jni.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/android/asset_manager.h:
 
-jni/../../cocos2d/cocos/./base/CCProfiling.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCProfiling.h:
 
-jni/../../cocos2d/cocos/./base/ccUTF8.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/ccUTF8.h:
 
-jni/../../cocos2d/cocos/./base/CCUserDefault.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCUserDefault.h:
 
-jni/../../cocos2d/cocos/./base/CCIMEDelegate.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCIMEDelegate.h:
 
-jni/../../cocos2d/cocos/./base/CCIMEDispatcher.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCIMEDispatcher.h:
 
-jni/../../cocos2d/cocos/./base/ccUtils.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/ccUtils.h:
 
-jni/../../cocos2d/cocos/./base/CCEventType.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventType.h:
 
-jni/../../cocos2d/cocos/./base/CCEventListenerTouch.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventListenerTouch.h:
 
-jni/../../cocos2d/cocos/./base/CCEventListenerKeyboard.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventListenerKeyboard.h:
 
-jni/../../cocos2d/cocos/./base/CCEventListenerMouse.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventListenerMouse.h:
 
-jni/../../cocos2d/cocos/./base/CCEventMouse.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventMouse.h:
 
-jni/../../cocos2d/cocos/./base/CCEventAcceleration.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventAcceleration.h:
 
-jni/../../cocos2d/cocos/./base/CCEventListenerAcceleration.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventListenerAcceleration.h:
 
-jni/../../cocos2d/cocos/./base/CCEventCustom.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventCustom.h:
 
-jni/../../cocos2d/cocos/./base/CCEventListenerCustom.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventListenerCustom.h:
 
-jni/../../cocos2d/cocos/./base/CCEventFocus.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventFocus.h:
 
-jni/../../cocos2d/cocos/./base/CCEventListenerFocus.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCEventListenerFocus.h:
 
-jni/../../cocos2d/cocos/./math/MathUtil.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/MathUtil.h:
 
-jni/../../cocos2d/cocos/./math/MathUtil.inl:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/MathUtil.inl:
 
-jni/../../cocos2d/cocos/./math/CCVertex.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./math/CCVertex.h:
 
-jni/../../cocos2d/cocos/./2d/CCAction.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCAction.h:
 
-jni/../../cocos2d/cocos/./2d/CCActionInterval.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionInterval.h:
 
-jni/../../cocos2d/cocos/./2d/CCSpriteFrame.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCSpriteFrame.h:
 
-jni/../../cocos2d/cocos/./2d/CCAnimation.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCAnimation.h:
 
-jni/../../cocos2d/cocos/./2d/CCActionCamera.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionCamera.h:
 
-jni/../../cocos2d/cocos/./2d/CCActionManager.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionManager.h:
 
-jni/../../cocos2d/cocos/./2d/CCActionEase.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionEase.h:
 
-jni/../../cocos2d/cocos/./2d/CCActionPageTurn3D.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionPageTurn3D.h:
 
-jni/../../cocos2d/cocos/./2d/CCActionGrid3D.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionGrid3D.h:
 
-jni/../../cocos2d/cocos/./2d/CCActionGrid.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionGrid.h:
 
-jni/../../cocos2d/cocos/./2d/CCActionInstant.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionInstant.h:
 
-jni/../../cocos2d/cocos/./2d/CCActionProgressTimer.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionProgressTimer.h:
 
-jni/../../cocos2d/cocos/./2d/CCActionTiledGrid.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionTiledGrid.h:
 
-jni/../../cocos2d/cocos/./2d/CCActionTween.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionTween.h:
 
-jni/../../cocos2d/cocos/./2d/CCActionCatmullRom.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCActionCatmullRom.h:
 
-jni/../../cocos2d/cocos/./2d/CCTweenFunction.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTweenFunction.h:
 
-jni/../../cocos2d/cocos/./2d/CCDrawingPrimitives.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCDrawingPrimitives.h:
 
-jni/../../cocos2d/cocos/./2d/CCDrawNode.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCDrawNode.h:
 
-jni/../../cocos2d/cocos/./renderer/CCCustomCommand.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCCustomCommand.h:
 
-jni/../../cocos2d/cocos/./2d/CCLabelTTF.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCLabelTTF.h:
 
-jni/../../cocos2d/cocos/./2d/CCLabelBMFont.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCLabelBMFont.h:
 
-jni/../../cocos2d/cocos/./2d/CCLabel.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCLabel.h:
 
-jni/../../cocos2d/cocos/./2d/CCSpriteBatchNode.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCSpriteBatchNode.h:
 
-jni/../../cocos2d/cocos/./renderer/CCTextureAtlas.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCTextureAtlas.h:
 
-jni/../../cocos2d/cocos/./renderer/CCBatchCommand.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCBatchCommand.h:
 
-jni/../../cocos2d/cocos/./renderer/CCGLProgram.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCGLProgram.h:
 
-jni/../../cocos2d/cocos/./2d/CCFontAtlas.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCFontAtlas.h:
 
-jni/../../cocos2d/cocos/./2d/CCFontFNT.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCFontFNT.h:
 
-jni/../../cocos2d/cocos/./2d/CCFont.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCFont.h:
 
-jni/../../cocos2d/cocos/./2d/CCLayer.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCLayer.h:
 
-jni/../../cocos2d/cocos/./physics/CCPhysicsWorld.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./physics/CCPhysicsWorld.h:
 
-jni/../../cocos2d/cocos/./2d/CCScene.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCScene.h:
 
-jni/../../cocos2d/cocos/./2d/CCTransition.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTransition.h:
 
-jni/../../cocos2d/cocos/./2d/CCTransitionPageTurn.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTransitionPageTurn.h:
 
-jni/../../cocos2d/cocos/./2d/CCTransitionProgress.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTransitionProgress.h:
 
-jni/../../cocos2d/cocos/./2d/CCMenu.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCMenu.h:
 
-jni/../../cocos2d/cocos/./2d/CCMenuItem.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCMenuItem.h:
 
-jni/../../cocos2d/cocos/./2d/CCClippingNode.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCClippingNode.h:
 
-jni/../../cocos2d/cocos/./renderer/CCGroupCommand.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCGroupCommand.h:
 
-jni/../../cocos2d/cocos/./2d/CCMotionStreak.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCMotionStreak.h:
 
-jni/../../cocos2d/cocos/./2d/CCProgressTimer.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCProgressTimer.h:
 
-jni/../../cocos2d/cocos/./2d/CCSprite.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCSprite.h:
 
-jni/../../cocos2d/cocos/./physics/CCPhysicsBody.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./physics/CCPhysicsBody.h:
 
-jni/../../cocos2d/cocos/./physics/CCPhysicsShape.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./physics/CCPhysicsShape.h:
 
-jni/../../cocos2d/cocos/./2d/CCRenderTexture.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCRenderTexture.h:
 
-jni/../../cocos2d/cocos/./platform/CCImage.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/CCImage.h:
 
-jni/../../cocos2d/cocos/./2d/CCNodeGrid.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCNodeGrid.h:
 
-jni/../../cocos2d/cocos/./2d/CCParticleBatchNode.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCParticleBatchNode.h:
 
-jni/../../cocos2d/cocos/./2d/CCParticleSystem.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCParticleSystem.h:
 
-jni/../../cocos2d/cocos/./deprecated/CCString.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCString.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/sstream:
 
@@ -869,166 +870,168 @@ jni/../../cocos2d/cocos/./deprecated/CCString.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/istream:
 
-jni/../../cocos2d/cocos/./deprecated/CCArray.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCArray.h:
 
-jni/../../cocos2d/cocos/./base/ccCArray.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/ccCArray.h:
 
-jni/../../cocos2d/cocos/./base/CCDataVisitor.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./base/CCDataVisitor.h:
 
-jni/../../cocos2d/cocos/./2d/CCParticleExamples.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCParticleExamples.h:
 
-jni/../../cocos2d/cocos/./2d/CCParticleSystemQuad.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCParticleSystemQuad.h:
 
-jni/../../cocos2d/cocos/./2d/CCGrabber.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCGrabber.h:
 
-jni/../../cocos2d/cocos/./2d/CCGrid.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCGrid.h:
 
-jni/../../cocos2d/cocos/./renderer/CCRenderer.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCRenderer.h:
 
-jni/../../cocos2d/cocos/./renderer/CCGLProgramCache.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCGLProgramCache.h:
 
-jni/../../cocos2d/cocos/./renderer/ccShaders.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/ccShaders.h:
 
-jni/../../cocos2d/cocos/./renderer/CCTextureCache.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCTextureCache.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/condition_variable:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/queue:
 
-jni/../../cocos2d/cocos/./physics/CCPhysicsContact.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./physics/CCPhysicsContact.h:
 
-jni/../../cocos2d/cocos/./physics/CCPhysicsJoint.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./physics/CCPhysicsJoint.h:
 
-jni/../../cocos2d/cocos/./platform/CCDevice.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/CCDevice.h:
 
-jni/../../cocos2d/cocos/./platform/CCSAXParser.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/CCSAXParser.h:
 
-jni/../../cocos2d/cocos/./platform/CCThread.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/CCThread.h:
 
-jni/../../cocos2d/cocos/./platform/android/CCApplication.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/android/CCApplication.h:
 
-jni/../../cocos2d/cocos/./platform/CCApplicationProtocol.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/CCApplicationProtocol.h:
 
-jni/../../cocos2d/cocos/./platform/android/CCGLView.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/android/CCGLView.h:
 
-jni/../../cocos2d/cocos/./platform/CCGLViewProtocol.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./platform/CCGLViewProtocol.h:
 
-jni/../../cocos2d/cocos/./2d/CCAnimationCache.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCAnimationCache.h:
 
-jni/../../cocos2d/cocos/./2d/CCSpriteFrameCache.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCSpriteFrameCache.h:
 
-jni/../../cocos2d/cocos/./2d/CCTextFieldTTF.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTextFieldTTF.h:
 
-jni/../../cocos2d/cocos/./2d/CCParallaxNode.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCParallaxNode.h:
 
-jni/../../cocos2d/cocos/./2d/CCTMXLayer.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTMXLayer.h:
 
-jni/../../cocos2d/cocos/./2d/CCTMXObjectGroup.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTMXObjectGroup.h:
 
-jni/../../cocos2d/cocos/./2d/CCTMXXMLParser.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTMXXMLParser.h:
 
-jni/../../cocos2d/cocos/./2d/CCTMXTiledMap.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTMXTiledMap.h:
 
-jni/../../cocos2d/cocos/./2d/CCTileMapAtlas.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCTileMapAtlas.h:
 
-jni/../../cocos2d/cocos/./2d/CCFastTMXTiledMap.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCFastTMXTiledMap.h:
 
-jni/../../cocos2d/cocos/./2d/CCFastTMXLayer.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCFastTMXLayer.h:
 
-jni/../../cocos2d/cocos/./2d/CCComponent.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCComponent.h:
 
-jni/../../cocos2d/cocos/./2d/CCComponentContainer.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./2d/CCComponentContainer.h:
 
-jni/../../cocos2d/cocos/./3d/CCSprite3D.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCSprite3D.h:
 
-jni/../../cocos2d/cocos/./renderer/CCMeshCommand.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./renderer/CCMeshCommand.h:
 
-jni/../../cocos2d/cocos/./3d/CCMesh.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCMesh.h:
 
-jni/../../cocos2d/cocos/./3d/CCBundle3DData.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCBundle3DData.h:
 
-jni/../../cocos2d/cocos/./3d/CCMeshSkin.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCMeshSkin.h:
 
-jni/../../cocos2d/cocos/./3d/CCAnimate3D.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCAnimate3D.h:
 
-jni/../../cocos2d/cocos/./3d/CCAnimation3D.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCAnimation3D.h:
 
-jni/../../cocos2d/cocos/./3d/CCAnimationCurve.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCAnimationCurve.h:
 
-jni/../../cocos2d/cocos/./3d/CCAnimationCurve.inl:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCAnimationCurve.inl:
 
-jni/../../cocos2d/cocos/./3d/CCSprite3DMaterial.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./3d/CCSprite3DMaterial.h:
 
-jni/../../cocos2d/cocos/./audio/include/SimpleAudioEngine.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./audio/include/SimpleAudioEngine.h:
 
-jni/../../cocos2d/cocos/audio/android/../include/Export.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/audio/android/../include/Export.h:
 
-jni/../../cocos2d/cocos/./deprecated/CCDictionary.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCDictionary.h:
 
-jni/../../cocos2d/cocos/./deprecated/CCSet.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCSet.h:
 
-jni/../../cocos2d/cocos/./deprecated/CCInteger.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCInteger.h:
 
-jni/../../cocos2d/cocos/./deprecated/CCFloat.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCFloat.h:
 
-jni/../../cocos2d/cocos/./deprecated/CCDouble.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCDouble.h:
 
-jni/../../cocos2d/cocos/./deprecated/CCBool.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCBool.h:
 
-jni/../../cocos2d/cocos/./deprecated/CCNotificationCenter.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCNotificationCenter.h:
 
-jni/../../cocos2d/cocos/./deprecated/CCDeprecated.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./deprecated/CCDeprecated.h:
 
 jni/../../Classes/Net/MWebSocket.h:
 
-jni/../../cocos2d/extensions/../extensions/cocos-ext.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/cocos-ext.h:
 
-jni/../../cocos2d/extensions/../extensions/ExtensionMacros.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/ExtensionMacros.h:
 
-jni/../../cocos2d/extensions/../extensions/GUI/CCControlExtension/CCControlExtensions.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/GUI/CCControlExtension/CCControlExtensions.h:
 
-jni/../../cocos2d/extensions/GUI/CCControlExtension/CCScale9Sprite.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCScale9Sprite.h:
 
-jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControl.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControl.h:
 
-jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlUtils.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlUtils.h:
 
-jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlButton.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlButton.h:
 
-jni/../../cocos2d/extensions/GUI/CCControlExtension/CCInvocation.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCInvocation.h:
 
-jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlColourPicker.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlColourPicker.h:
 
-jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlHuePicker.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlHuePicker.h:
 
-jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h:
 
-jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlPotentiometer.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlPotentiometer.h:
 
-jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlSlider.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlSlider.h:
 
-jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlStepper.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlStepper.h:
 
-jni/../../cocos2d/extensions/GUI/CCControlExtension/CCControlSwitch.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCControlExtension/CCControlSwitch.h:
 
-jni/../../cocos2d/extensions/../extensions/GUI/CCScrollView/CCScrollView.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/GUI/CCScrollView/CCScrollView.h:
 
-jni/../../cocos2d/extensions/../extensions/GUI/CCScrollView/CCTableView.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/GUI/CCScrollView/CCTableView.h:
 
-jni/../../cocos2d/extensions/GUI/CCScrollView/CCTableViewCell.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/GUI/CCScrollView/CCTableViewCell.h:
 
-jni/../../cocos2d/extensions/../extensions/GUI/CCEditBox/CCEditBox.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/GUI/CCEditBox/CCEditBox.h:
 
-jni/../../cocos2d/extensions/../extensions/physics-nodes/CCPhysicsDebugNode.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/physics-nodes/CCPhysicsDebugNode.h:
 
-jni/../../cocos2d/extensions/../extensions/physics-nodes/CCPhysicsSprite.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/physics-nodes/CCPhysicsSprite.h:
 
-jni/../../cocos2d/extensions/../extensions/assets-manager/AssetsManager.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/extensions/../extensions/assets-manager/AssetsManager.h:
 
-jni/../../cocos2d/cocos/./network/WebSocket.h:
+/Users/qianwenjun/Documents/TikiLearn/ios/Mahjong/proj.android/../cocos2d/cocos/./network/WebSocket.h:
 
 jni/../../Classes/Tools/HMessage.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/iostream:
 
 jni/../../Classes/Net/command/CommonCommand.h:
+
+jni/../../Classes/Scene/UI_Login.h:

@@ -18,12 +18,17 @@ public:
     NetLogic();
     virtual ~NetLogic();
     void onEnter();
+    void onExit();
     bool init();
     static NetLogic* getInstance();
     CREATE_FUNC(NetLogic);
 private:
+    // 发送消息
     void sendLogic(float dt);
-    
+    // 发送心跳
+    void sendHeartbeat(float dt);
+    // 接受消息
+    void reciveLogic();
 };
 
 #endif /* defined(__Mahjong__NetLogic__) */

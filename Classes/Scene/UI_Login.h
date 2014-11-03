@@ -19,6 +19,7 @@ public:
     virtual ~UI_Login();
     static cocos2d::Scene* scene();
     bool init();
+    void menuCloseCallback(cocos2d::Ref* pSender);
     CREATE_FUNC(UI_Login);
 };
 

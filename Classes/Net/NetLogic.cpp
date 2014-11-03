@@ -7,6 +7,8 @@
 //
 
 #include "NetLogic.h"
+#include "Net/command/SendNetWork.h"
+#include "command/CommonCommand.h"
 using namespace cocos2d;
 
 static NetLogic* s_netLogic = nullptr;
@@ -17,6 +19,12 @@ void NetLogic::onEnter()
     Node::onEnter();
 }
 
+void NetLogic::onExit()
+{
+    Node::onExit();
+}
+
+
 NetLogic::NetLogic()
 {
     
@@ -24,6 +32,7 @@ NetLogic::NetLogic()
 
 NetLogic::~NetLogic()
 {
+    onExit();
     s_netLogic = nullptr;
 }
 
@@ -33,8 +42,10 @@ bool NetLogic::init()
     do{
         CC_BREAK_IF(!Node::init());
         onEnter();
-        schedule(schedule_selector(NetLogic::sendLogic), 1.0f);
+        schedule(schedule_selector(NetLogic::sendLogic), 0.1f);
+        schedule(schedule_selector(NetLogic::sendHeartbeat), 3.0f);
         bRet = true;
+        s_netLogic = this;
     }while(0);
     return bRet;
 }
@@ -51,5 +62,17 @@ NetLogic* NetLogic::getInstance()
 
 void NetLogic::sendLogic(float dt)
 {
-    CCLOG("121212121212");
+//    CCLOG("121212121212");
+    if(CommonCommand::getInstance()->isConnected())
+        SendNetWork::getInstance()->DealNetWorkThread();
+}
+
+void NetLogic::sendHeartbeat(float dt)
+{
+    CCLOG("this is my heartbeat");
+}
+
+void NetLogic::reciveLogic()
+{
+    
 }

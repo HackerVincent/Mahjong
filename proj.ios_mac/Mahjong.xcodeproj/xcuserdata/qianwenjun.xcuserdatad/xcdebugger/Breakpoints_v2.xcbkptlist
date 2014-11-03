@@ -10,11 +10,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Net/MWebSocket.cpp"
-            timestampString = "436283308.130271"
+            timestampString = "436607813.218432"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "MWebSocket::init()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/Net/MWebSocket.cpp"
+            timestampString = "436611000.663764"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
             landmarkName = "MWebSocket::onMessage(cocos2d::network::WebSocket *ws, const cocos2d::network::WebSocket::Data &amp;data)"
             landmarkType = "5">
          </BreakpointContent>
@@ -25,13 +41,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Classes/Net/NetLogic.cpp"
-            timestampString = "436371945.312363"
+            filePath = "../Classes/Net/command/RequestCommand.cpp"
+            timestampString = "436612783.588006"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "NetLogic::getInstance()"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "RequestCommand::CreatBodyPack(HMessage* mes)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
