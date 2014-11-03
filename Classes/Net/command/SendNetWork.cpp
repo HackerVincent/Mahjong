@@ -51,7 +51,6 @@ void SendNetWork::DealNetWorkThread(){
 //        }
 //        if(isRunHeader)
 //            RoleModel::getInstance()->sendSysHeart();
-    CCLOG("12121212");
         sendCommandDataToServer();
 //#if(CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)//条件编译语句
 //        usleep(100*1000);//微秒

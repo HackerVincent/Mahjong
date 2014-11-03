@@ -88,11 +88,11 @@ void HelloWorld::send()
 {
 //    _socket->send();
     auto mess = new HMessage();
-//    mess->putUTF8("fuck~~~~~~");
-    mess->put(10);
+//
+    mess->putInt(10);
     mess->putShort(20);
     mess->putLong(12);
-    mess->putUTF8("fuck");
+    mess->putUTF8("fuck~~~~~~");
 //     发送消息
     CommonCommand::getInstance()->sendMessage(mess);
 //    SendNetWork::getInstance()->AddNetCommand(new RequestTest());

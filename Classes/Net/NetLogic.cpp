@@ -69,7 +69,7 @@ void NetLogic::sendLogic(float dt)
 
 void NetLogic::sendHeartbeat(float dt)
 {
-    CCLOG("this is my heartbeat");
+//    CCLOG("this is my heartbeat");
 }
 
 void NetLogic::reciveLogic()
