@@ -8,6 +8,7 @@
 
 #include "MWebSocket.h"
 #include "Tools/HMessage.h"
+#include "Net/command/HandReciveData.h"
 USING_NS_CC;
 USING_NS_CC_EXT;
 
@@ -147,6 +148,10 @@ void MWebSocket::onMessage(cocos2d::network::WebSocket *ws, const cocos2d::netwo
         }
         
         HMessage* mess = new HMessage((uint8_t*)binaryStr.c_str(),data.len);
+        // 存储信息
+        HandReciveData::getInstance()->put(mess);
+        
+        
         CCLOG("%s",mess->getBuf());
         binaryStr += std::string(", ")+times;
         log("%s", binaryStr.c_str());

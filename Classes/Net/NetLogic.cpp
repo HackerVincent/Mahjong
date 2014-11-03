@@ -9,6 +9,7 @@
 #include "NetLogic.h"
 #include "Net/command/SendNetWork.h"
 #include "command/CommonCommand.h"
+#include "Net/command/HandReciveData.h"
 using namespace cocos2d;
 
 static NetLogic* s_netLogic = nullptr;
@@ -72,7 +73,7 @@ void NetLogic::sendHeartbeat(float dt)
 //    CCLOG("this is my heartbeat");
 }
 
-void NetLogic::reciveLogic()
+void NetLogic::reciveLogic(float dt)
 {
-    
+    HandReciveData::getInstance()->use();
 }

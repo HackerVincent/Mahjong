@@ -28,7 +28,7 @@ private:
     // 发送心跳
     void sendHeartbeat(float dt);
     // 接受消息
-    void reciveLogic();
+    void reciveLogic(float dt);
 };
 
 #endif /* defined(__Mahjong__NetLogic__) */
