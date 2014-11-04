@@ -45,6 +45,7 @@ bool NetLogic::init()
         onEnter();
         schedule(schedule_selector(NetLogic::sendLogic), 0.1f);
         schedule(schedule_selector(NetLogic::sendHeartbeat), 3.0f);
+        schedule(schedule_selector(NetLogic::reciveLogic), 0.1f);
         bRet = true;
         s_netLogic = this;
     }while(0);

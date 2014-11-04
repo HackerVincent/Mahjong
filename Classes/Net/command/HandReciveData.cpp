@@ -37,19 +37,26 @@ void HandReciveData::use(){
     {
         auto mess = dynamic_cast<HMessage*>(e);
         /********* 消息头部 *********/
-        int prefix = mess->getShort();          // 数据开始标志 固定为 -3000
+        short prefix = mess->getShort();        // 数据开始标志 固定为 -3000
+        CCLOG("prefix-------->%hd",prefix);
         int occupy = mess->getInt();            // 占位  = 0
+        CCLOG("occupy-------->%d",occupy);
         int uid = mess->getInt();               // 玩家id
+        CCLOG("uid----------->%d",uid);
         int channelId = mess->getInt();         // 请求标志 (和request中一样)
+        CCLOG("channelId----->%d",channelId);
         std::string skey = mess->getUTF8();     // 验证用 传空字符串
+        CCLOG("skey---------->%s",skey.c_str());
         int totalLen = mess->getInt();          // 消息总长
+        CCLOG("totalLen------>%d",totalLen);
         int dataLen = mess->getInt();           // 数据区长度
-        
+        CCLOG("dataLen------->%d",dataLen);
         /************ 数据区 ***********/
-
+        auto messData = new HMessage(mess->getBuf(),dataLen);
+        mess->skip(dataLen);
         /************  消息尾部  ************/
-        int surffix = mess->getShort();          // 数据结尾标志 传  固定为 -4000
-        
+        short surffix = mess->getShort();          // 数据结尾标志 传  固定为 -4000
+        CCLOG("surrix----->%hd",surffix);
         
     }
     

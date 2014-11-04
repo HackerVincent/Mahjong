@@ -127,34 +127,14 @@ void MWebSocket::onMessage(cocos2d::network::WebSocket *ws, const cocos2d::netwo
     }
     else
     {
-        _sendBinaryTimes++;
-        char times[100] = {0};
-        sprintf(times, "%d", _sendBinaryTimes);
-        
-        char* recvBuf = data.bytes;
-        
-        auto mess1 = new HMessage((uint8_t*)recvBuf,data.len);
-        CCLOG("%s--->",mess1->getBuf());
-        std::string binaryStr;
+        char* recvBuf = new char[data.len];
+        // 将data数据保存下来，防止函数返回后数据丢失
         for (int i = 0; i < data.len; ++i) {
-            if (data.bytes[i] != '\0')
-            {
-                binaryStr += data.bytes[i];
-            }
-            else
-            {
-//                binaryStr += "\'\\0\'";
-            }
+            recvBuf[i] = data.bytes[i];
         }
-        
-        HMessage* mess = new HMessage((uint8_t*)binaryStr.c_str(),data.len);
+        HMessage* mess = new HMessage((uint8_t*)recvBuf,data.len);
         // 存储信息
         HandReciveData::getInstance()->put(mess);
-        
-        
-        CCLOG("%s",mess->getBuf());
-        binaryStr += std::string(", ")+times;
-        log("%s", binaryStr.c_str());
     }
 }
 
@@ -179,7 +159,7 @@ void MWebSocket::send(HMessage* mess)
     if (_wsiSendBinary->getReadyState() == network::WebSocket::State::OPEN)
     {
         uint8_t* buffer = mess->getBuf();
-        _wsiSendBinary->send((unsigned char*)buffer,mess->getlengths());
+        _wsiSendBinary->send((uint8_t*)buffer,mess->getlengths());
     }
     else
     {
