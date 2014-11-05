@@ -13,6 +13,9 @@ ModelEnter::ModelEnter(){
     
 }
 void ModelEnter::DealResponseCommand(HMessage* mes){
+    
+    
+    
     char modelSize = mes->get();//模块数量
     for(int i=0;i<modelSize;i++){
         int modelNum = mes->getShort();//模块号

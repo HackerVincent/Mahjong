@@ -23,6 +23,8 @@ public:
     int getPondSize();
     void put(HMessage* hms);
     void use();
+    // 解析数据
+    void analysixData(HMessage* mes);
     static bool isUseReciveThis;
 private:
     vector<HMessage*> reciveData;
