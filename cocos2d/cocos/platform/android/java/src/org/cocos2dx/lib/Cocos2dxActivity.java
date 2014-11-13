@@ -34,11 +34,12 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Message;
 import android.view.ViewGroup;
+import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.widget.FrameLayout;
 import android.preference.PreferenceManager.OnActivityResultListener;
 
-public abstract class Cocos2dxActivity extends Activity implements Cocos2dxHelperListener {
+public abstract class Cocos2dxActivity extends FragmentActivity implements Cocos2dxHelperListener {
 	// ===========================================================
 	// Constants
 	// ===========================================================

@@ -6,54 +6,54 @@
   jni/../../cocos2d/cocos/./base/CCRef.h \
   jni/../../cocos2d/cocos/./base/CCPlatformMacros.h \
   jni/../../cocos2d/cocos/./platform/android/CCPlatformDefine.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/android/log.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/log.h \
   jni/../../cocos2d/cocos/./base/CCRefPtr.h \
   jni/../../cocos2d/cocos/./base/ccMacros.h \
   jni/../../cocos2d/cocos/./base/CCConsole.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/select.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/android/api-level.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/time.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/types.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/select.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/api-level.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/time.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/types.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/stdint.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/stdint.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/_types.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/machine/_types.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/_wchar_limits.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/limits.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/limits.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/limits.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/machine/internal_types.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/machine/limits.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/syslimits.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/page.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/posix_types.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/stddef.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/compiler.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/posix_types.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/types.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/types.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/machine/kernel.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/time.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/signal.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdint.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_types.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/_types.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/limits.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/limits.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/limits.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/internal_types.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/limits.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/posix_types.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/stddef.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/compiler.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/posix_types.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/types.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/types.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/kernel.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/time.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/signal.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/string.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/string.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/malloc.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/string.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/malloc.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/monetary.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/xlocale.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/signal.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/sigcontext.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/siginfo.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/signal.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm-generic/signal.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/sigcontext.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/siginfo.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm-generic/siginfo.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/thread \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/__config \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/iosfwd \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/wchar.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/stdio.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/stdio.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/wctype.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/__functional_base \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/type_traits \
@@ -76,21 +76,21 @@
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/system_error \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/cerrno \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/errno.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/errno.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/errno.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/errno.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm-generic/errno.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm-generic/errno-base.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/errno.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/errno.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/errno.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm-generic/errno.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm-generic/errno-base.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/stdexcept \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/chrono \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/ctime \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/time.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/time.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/time.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/ratio \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/climits \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/__mutex_base \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/pthread.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sched.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/pthread.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sched.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/vector \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/__bit_reference \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/algorithm \
@@ -103,18 +103,18 @@
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/cwctype \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/cctype \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/ctype.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/ctype.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/ctype.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/mutex \
   jni/../../cocos2d/cocos/./platform/android/CCStdC.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/math.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/stdlib.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/stdlib.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/alloca.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/strings.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/memory.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/cassert \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/assert.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h \
   jni/../../cocos2d/cocos/./base/CCVector.h \
   jni/../../cocos2d/cocos/./base/CCMap.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/unordered_map \
@@ -141,10 +141,10 @@
   jni/../../cocos2d/cocos/./base/CCValue.h \
   jni/../../cocos2d/cocos/./base/ccTypes.h \
   jni/../../cocos2d/cocos/./platform/android/CCGL.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/GLES2/gl2platform.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/KHR/khrplatform.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/GLES2/gl2.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/GLES2/gl2ext.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2platform.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/KHR/khrplatform.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2ext.h \
   jni/../../cocos2d/cocos/./base/CCConfiguration.h \
   jni/../../cocos2d/cocos/./base/CCDirector.h \
   jni/../../cocos2d/cocos/./2d/CCLabelAtlas.h \
@@ -171,13 +171,13 @@
   jni/../../cocos2d/cocos/./base/CCScheduler.h \
   jni/../../cocos2d/cocos/./base/uthash.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/inttypes.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/inttypes.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/inttypes.h \
   jni/../../cocos2d/cocos/./base/base64.h \
   jni/../../cocos2d/cocos/./base/ZipUtils.h \
   jni/../../cocos2d/cocos/./platform/android/CCFileUtilsAndroid.h \
   jni/../../cocos2d/cocos/./platform/CCFileUtils.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/jni.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/android/asset_manager.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/jni.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/asset_manager.h \
   jni/../../cocos2d/cocos/./base/CCProfiling.h \
   jni/../../cocos2d/cocos/./base/ccUTF8.h \
   jni/../../cocos2d/cocos/./base/CCUserDefault.h \
@@ -253,7 +253,7 @@
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/ios \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/__locale \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/locale.h \
-  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/locale.h \
+  /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/locale.h \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/streambuf \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/locale \
   /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/cstdarg \
@@ -332,7 +332,7 @@ jni/../../cocos2d/cocos/./base/CCPlatformMacros.h:
 
 jni/../../cocos2d/cocos/./platform/android/CCPlatformDefine.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/android/log.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/log.h:
 
 jni/../../cocos2d/cocos/./base/CCRefPtr.h:
 
@@ -340,81 +340,81 @@ jni/../../cocos2d/cocos/./base/ccMacros.h:
 
 jni/../../cocos2d/cocos/./base/CCConsole.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/select.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/select.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/android/api-level.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/api-level.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/time.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/time.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/types.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/types.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/stdint.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/stdint.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdint.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/_types.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_types.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/machine/_types.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/_types.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/_wchar_limits.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/limits.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/limits.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/limits.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/limits.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/limits.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/limits.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/machine/internal_types.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/internal_types.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/machine/limits.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/limits.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/syslimits.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/page.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/posix_types.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/posix_types.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/stddef.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/stddef.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/compiler.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/compiler.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/posix_types.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/posix_types.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/types.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/types.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/types.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/types.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/machine/kernel.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/kernel.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/time.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/time.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/signal.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/signal.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/string.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/string.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/string.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/malloc.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/malloc.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/monetary.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/xlocale.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/signal.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/signal.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm-generic/signal.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/sigcontext.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/sigcontext.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/siginfo.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/siginfo.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm-generic/siginfo.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/thread:
 
@@ -426,7 +426,7 @@ jni/../../cocos2d/cocos/./base/CCConsole.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/stdio.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/stdio.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/wctype.h:
 
@@ -472,15 +472,15 @@ jni/../../cocos2d/cocos/./base/CCConsole.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/errno.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/errno.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/errno.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/errno.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/errno.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/errno.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/errno.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm-generic/errno.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm-generic/errno.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm-generic/errno-base.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm-generic/errno-base.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/stdexcept:
 
@@ -490,7 +490,7 @@ jni/../../cocos2d/cocos/./base/CCConsole.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/time.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/time.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/time.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/ratio:
 
@@ -498,9 +498,9 @@ jni/../../cocos2d/cocos/./base/CCConsole.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/__mutex_base:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/pthread.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/pthread.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sched.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sched.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/vector:
 
@@ -526,7 +526,7 @@ jni/../../cocos2d/cocos/./base/CCConsole.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/ctype.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/ctype.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/ctype.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/mutex:
 
@@ -534,21 +534,21 @@ jni/../../cocos2d/cocos/./platform/android/CCStdC.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/math.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/math.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/stdlib.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/stdlib.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/alloca.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/strings.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/memory.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/cassert:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/assert.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h:
 
 jni/../../cocos2d/cocos/./base/CCVector.h:
 
@@ -602,13 +602,13 @@ jni/../../cocos2d/cocos/./base/ccTypes.h:
 
 jni/../../cocos2d/cocos/./platform/android/CCGL.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/GLES2/gl2platform.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2platform.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/KHR/khrplatform.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/KHR/khrplatform.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/GLES2/gl2.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/GLES2/gl2ext.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2ext.h:
 
 jni/../../cocos2d/cocos/./base/CCConfiguration.h:
 
@@ -662,7 +662,7 @@ jni/../../cocos2d/cocos/./base/uthash.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/inttypes.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/inttypes.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/inttypes.h:
 
 jni/../../cocos2d/cocos/./base/base64.h:
 
@@ -672,9 +672,9 @@ jni/../../cocos2d/cocos/./platform/android/CCFileUtilsAndroid.h:
 
 jni/../../cocos2d/cocos/./platform/CCFileUtils.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/jni.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/jni.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/android/asset_manager.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/asset_manager.h:
 
 jni/../../cocos2d/cocos/./base/CCProfiling.h:
 
@@ -826,7 +826,7 @@ jni/../../cocos2d/cocos/./deprecated/CCString.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/../../android/support/include/locale.h:
 
-/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/locale.h:
+/Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/locale.h:
 
 /Users/qianwenjun/Documents/TikiWork/Android/Tools/android-ndk-r9d/sources/cxx-stl/llvm-libc++/libcxx/include/streambuf:
 

@@ -28,5 +28,47 @@ package org.cocos2dx.cpp;
 
 import org.cocos2dx.lib.Cocos2dxActivity;
 
+import android.os.Bundle;
+
+import com.facebook.AppEventsLogger;
+
 public class AppActivity extends Cocos2dxActivity {
+	
+	private MainFragment mainFragment;
+	private static final String TAG = "MainFragment";
+	
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+	    super.onCreate(savedInstanceState);
+
+	    if (savedInstanceState == null) {
+	        // Add the fragment on initial activity setup
+	        mainFragment = new MainFragment();
+	        getSupportFragmentManager()
+	        .beginTransaction()
+	        .add(android.R.id.content, mainFragment)
+	        .commit();
+	    } else {
+	        // Or set the fragment from restored state info
+	        mainFragment = (MainFragment) getSupportFragmentManager()
+	        .findFragmentById(android.R.id.content);
+	    }
+	}
+	
+	@Override
+	protected void onResume() {
+	  super.onResume();
+
+	  // Logs 'install' and 'app activate' App Events.
+	  AppEventsLogger.activateApp(this);
+	}
+	
+	@Override
+	protected void onPause() {
+	  super.onPause();
+
+	  // Logs 'app deactivate' App Event.
+	  AppEventsLogger.deactivateApp(this);
+	}
 }

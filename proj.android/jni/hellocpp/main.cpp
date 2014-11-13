@@ -13,3 +13,10 @@ void cocos_android_app_init (JNIEnv* env, jobject thiz) {
     LOGD("cocos_android_app_init");
     AppDelegate *pAppDelegate = new AppDelegate();
 }
+
+extern "C"
+{
+	void Java_org_cocos2dx_cpp_jniMethod_nativeResumeSound()
+	{
+	}
+}
