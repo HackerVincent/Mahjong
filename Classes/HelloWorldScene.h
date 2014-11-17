@@ -20,6 +20,7 @@ public:
     
     cocos2d::LabelTTF* labelShow;
     void send();
+    void Http();
     
     void update(float dt);
     

@@ -4,7 +4,10 @@
 #include "Scene/UI_Login.h"
 #include "Net/command/SendNetWork.h"
 #include "Net/request/RequestTest.h"
+#include "extensions/cocos-ext.h"
+#include "network/HttpClient.h"
 USING_NS_CC;
+using namespace cocos2d::network;
 
 Scene* HelloWorld::createScene()
 {
@@ -43,12 +46,15 @@ bool HelloWorld::init()
     auto sendLabel = MenuItemFont::create("Send Text", CC_CALLBACK_0(HelloWorld::send, this));
     sendLabel->setPosition(Vec2(300, 400));
     
+    auto Http = MenuItemFont::create("Http", CC_CALLBACK_0(HelloWorld::Http, this));
+    Http->setPosition(Vec2(300, 300));
+    
     auto connetLavbel = MenuItemFont::create("Connet", [](Ref* ref){
         CommonCommand::getInstance()->creatConnection();
     });
     connetLavbel->setPosition(Vec2(500, 400));
     
-    auto menu = Menu::create(closeItem, sendLabel, connetLavbel,NULL);
+    auto menu = Menu::create(closeItem, sendLabel, Http, connetLavbel,NULL);
     menu->setPosition(Vec2::ZERO);
     this->addChild(menu, 1);
     
@@ -96,6 +102,28 @@ void HelloWorld::send()
 //     发送消息
     CommonCommand::getInstance()->sendMessage(mess);
 //    SendNetWork::getInstance()->AddNetCommand(new RequestTest());
+}
+
+void HelloWorld::Http()
+{
+//    HttpRequest* request = new HttpRequest();
+//    request->setUrl("http://httpbin.org/post");
+//    request->setRequestType(HttpRequest::Type::POST);
+//    request->setResponseCallback(CC_CALLBACK_2(HttpClientTest::onHttpRequestCompleted, this));
+//    
+//    // write the post data
+//    char postData[22] = "binary=hello\0\0cocos2d";  // including \0, the strings after \0 should not be cut in response
+//    request->setRequestData(postData, 22);
+//    if (isImmediate)
+//    {
+//        request->setTag("POST Binary immediate test");
+//        HttpClient::getInstance()->sendImmediate(request);
+//    }else
+//    {
+//        request->setTag("POST Binary test");
+//        HttpClient::getInstance()->send(request);
+//    }
+//    request->release();
 }
 
 void HelloWorld::menuCloseCallback(Ref* pSender)
