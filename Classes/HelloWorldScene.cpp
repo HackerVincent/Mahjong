@@ -6,6 +6,8 @@
 #include "Net/request/RequestTest.h"
 #include "extensions/cocos-ext.h"
 #include "network/HttpClient.h"
+#include "Tools/jionsx.h"
+#include "GameDate/GameData.h"
 USING_NS_CC;
 using namespace cocos2d::network;
 
@@ -181,7 +183,29 @@ void HelloWorld::onHttpRequestCompleted(cocos2d::network::HttpClient *sender, co
         temp_data += (*buffer)[i];
         printf("%c", (*buffer)[i]);
     }
+    jionsx* temps = new jionsx(temp_data);
     printf("\n");
+    
+    
+    if(response->getHttpRequest()->getTag() == "guestLogin")
+    {
+        GameData::getInstance()->setID(temps->getStringValue("id"));
+        GameData::getInstance()->setUserId(temps->getStringValue("userId"));
+        GameData::getInstance()->setUserPass(temps->getStringValue("userPass"));
+        GameData::getInstance()->setUserName(temps->getStringValue("userName"));
+        GameData::getInstance()->setIconType(temps->getIntValue("iconType"));
+        GameData::getInstance()->setSex(temps->getIntValue("sex"));
+        GameData::getInstance()->setSkey(temps->getStringValue("skey"));
+        GameData::getInstance()->setIP(temps->getStringValue("ip"));
+        GameData::getInstance()->setPort(temps->getStringValue("port"));
+        GameData::getInstance()->setState(temps->getIntValue("state"));
+        GameData::getInstance()->setUpdate(temps->getIntValue("update"));
+        GameData::getInstance()->setDownUrl(temps->getStringValue("downUrl"));
+        
+        CCLOG("user------>%s", temps->getStringValue("userId").c_str());
+//        int id_temp = temps->getIntValue("update");
+        
+    }
     
     if (0 != strlen(response->getHttpRequest()->getTag()))
     {

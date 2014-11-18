@@ -24,7 +24,7 @@ public:
     // 登陆数据
     void setID(std::string id){ _id = id;};
     void setUserId(std::string userId){ _userId = userId;};
-    void setUserPadd(std::string userPass){ _userPass = userPass;};
+    void setUserPass(std::string userPass){ _userPass = userPass;};
     void setUserName(std::string userName){ _userName = userName;};
     void setIconType(int iconType){ _iconType = iconType;};
     void setSex(int sex){ _sex = sex;};

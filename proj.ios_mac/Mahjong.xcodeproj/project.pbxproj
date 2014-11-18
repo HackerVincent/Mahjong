@@ -27,8 +27,10 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		4007FD641A062C6000C22BD1 /* RequestTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4007FD621A062C6000C22BD1 /* RequestTest.cpp */; };
 		4007FD651A062C6000C22BD1 /* RequestTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4007FD621A062C6000C22BD1 /* RequestTest.cpp */; };
-		40174CA01A1B7B99008DB8D5 /* GameData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40174C9F1A1B7B99008DB8D5 /* GameData.cpp */; };
-		40174CA11A1B7B99008DB8D5 /* GameData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40174C9F1A1B7B99008DB8D5 /* GameData.cpp */; };
+		40174CA91A1B8F57008DB8D5 /* jionsx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40174CA71A1B8F57008DB8D5 /* jionsx.cpp */; };
+		40174CAA1A1B8F57008DB8D5 /* jionsx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40174CA71A1B8F57008DB8D5 /* jionsx.cpp */; };
+		40174CAE1A1B9147008DB8D5 /* GameData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40174CAC1A1B9147008DB8D5 /* GameData.cpp */; };
+		40174CAF1A1B9147008DB8D5 /* GameData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40174CAC1A1B9147008DB8D5 /* GameData.cpp */; };
 		4057E99619FE1AA600CE4900 /* MWebSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4057E99419FE1AA600CE4900 /* MWebSocket.cpp */; };
 		4057E99719FE1AA600CE4900 /* MWebSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4057E99419FE1AA600CE4900 /* MWebSocket.cpp */; };
 		40715DC619FE0D2800F177EA /* UI_Login.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40715DC419FE0D2800F177EA /* UI_Login.cpp */; };
@@ -264,8 +266,10 @@
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4007FD621A062C6000C22BD1 /* RequestTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RequestTest.cpp; sourceTree = "<group>"; };
 		4007FD631A062C6000C22BD1 /* RequestTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestTest.h; sourceTree = "<group>"; };
-		40174C9E1A1B7B99008DB8D5 /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameData.h; sourceTree = "<group>"; };
-		40174C9F1A1B7B99008DB8D5 /* GameData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameData.cpp; sourceTree = "<group>"; };
+		40174CA71A1B8F57008DB8D5 /* jionsx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jionsx.cpp; sourceTree = "<group>"; };
+		40174CA81A1B8F57008DB8D5 /* jionsx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jionsx.h; sourceTree = "<group>"; };
+		40174CAC1A1B9147008DB8D5 /* GameData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameData.cpp; sourceTree = "<group>"; };
+		40174CAD1A1B9147008DB8D5 /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameData.h; sourceTree = "<group>"; };
 		4057E99419FE1AA600CE4900 /* MWebSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MWebSocket.cpp; sourceTree = "<group>"; };
 		4057E99519FE1AA600CE4900 /* MWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWebSocket.h; sourceTree = "<group>"; };
 		40715DC419FE0D2800F177EA /* UI_Login.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UI_Login.cpp; sourceTree = "<group>"; };
@@ -404,6 +408,7 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				40174CAB1A1B9119008DB8D5 /* GameDate */,
 				40715DC119FE0D0300F177EA /* Net */,
 				40715DC219FE0D0300F177EA /* Scene */,
 				40715DC319FE0D0300F177EA /* Tools */,
@@ -487,6 +492,16 @@
 			path = request;
 			sourceTree = "<group>";
 		};
+		40174CAB1A1B9119008DB8D5 /* GameDate */ = {
+			isa = PBXGroup;
+			children = (
+				40174CAC1A1B9147008DB8D5 /* GameData.cpp */,
+				40174CAD1A1B9147008DB8D5 /* GameData.h */,
+			);
+			name = GameDate;
+			path = ../Classes/GameDate;
+			sourceTree = "<group>";
+		};
 		40715DC119FE0D0300F177EA /* Net */ = {
 			isa = PBXGroup;
 			children = (
@@ -517,6 +532,8 @@
 		40715DC319FE0D0300F177EA /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				40174CA71A1B8F57008DB8D5 /* jionsx.cpp */,
+				40174CA81A1B8F57008DB8D5 /* jionsx.h */,
 				40C134281A00B335009ED36A /* HMessage.cpp */,
 				40C134291A00B335009ED36A /* HMessage.h */,
 				40C134241A009A9E009ED36A /* HashEntry.cpp */,
@@ -552,8 +569,6 @@
 		40C1340B1A008E52009ED36A /* data */ = {
 			isa = PBXGroup;
 			children = (
-				40174C9E1A1B7B99008DB8D5 /* GameData.h */,
-				40174C9F1A1B7B99008DB8D5 /* GameData.cpp */,
 				40C1340C1A008E63009ED36A /* NetData.cpp */,
 				40C1340D1A008E63009ED36A /* NetData.h */,
 			);
@@ -821,6 +836,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				40174CAE1A1B9147008DB8D5 /* GameData.cpp in Sources */,
 				40C1341E1A009944009ED36A /* HashMap.cpp in Sources */,
 				40715DC619FE0D2800F177EA /* UI_Login.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
@@ -833,13 +849,13 @@
 				40C134221A00998E009ED36A /* ResponseCommand.cpp in Sources */,
 				40C134141A009601009ED36A /* SymbolLoader.cpp in Sources */,
 				40C1342A1A00B335009ED36A /* HMessage.cpp in Sources */,
+				40174CA91A1B8F57008DB8D5 /* jionsx.cpp in Sources */,
 				40C134361A012075009ED36A /* ModelEnter.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				40715DD319FE10A500F177EA /* MThread.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,
 				40E96FD91A027C680047E097 /* NetLogic.cpp in Sources */,
-				40174CA01A1B7B99008DB8D5 /* GameData.cpp in Sources */,
 				4007FD641A062C6000C22BD1 /* RequestTest.cpp in Sources */,
 				40C134071A008DDA009ED36A /* HandReciveData.cpp in Sources */,
 			);
@@ -858,15 +874,16 @@
 				40C1341F1A009944009ED36A /* HashMap.cpp in Sources */,
 				40C134271A009A9E009ED36A /* HashEntry.cpp in Sources */,
 				40AB988F1A033685007BABEF /* SendNetWork.cpp in Sources */,
-				40174CA11A1B7B99008DB8D5 /* GameData.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				40C134231A00998E009ED36A /* ResponseCommand.cpp in Sources */,
 				40C134151A009601009ED36A /* SymbolLoader.cpp in Sources */,
 				40715DC719FE0D2800F177EA /* UI_Login.cpp in Sources */,
 				40C1343D1A0121E2009ED36A /* RequestCommand.cpp in Sources */,
+				40174CAA1A1B8F57008DB8D5 /* jionsx.cpp in Sources */,
 				4057E99719FE1AA600CE4900 /* MWebSocket.cpp in Sources */,
 				40C134371A012075009ED36A /* ModelEnter.cpp in Sources */,
 				408EF5A219FE348E0058B891 /* CommonCommand.cpp in Sources */,
+				40174CAF1A1B9147008DB8D5 /* GameData.cpp in Sources */,
 				40C1340F1A008E63009ED36A /* NetData.cpp in Sources */,
 				4007FD651A062C6000C22BD1 /* RequestTest.cpp in Sources */,
 			);
