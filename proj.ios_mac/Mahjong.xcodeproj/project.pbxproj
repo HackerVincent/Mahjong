@@ -27,6 +27,8 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		4007FD641A062C6000C22BD1 /* RequestTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4007FD621A062C6000C22BD1 /* RequestTest.cpp */; };
 		4007FD651A062C6000C22BD1 /* RequestTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4007FD621A062C6000C22BD1 /* RequestTest.cpp */; };
+		40174CA01A1B7B99008DB8D5 /* GameData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40174C9F1A1B7B99008DB8D5 /* GameData.cpp */; };
+		40174CA11A1B7B99008DB8D5 /* GameData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40174C9F1A1B7B99008DB8D5 /* GameData.cpp */; };
 		4057E99619FE1AA600CE4900 /* MWebSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4057E99419FE1AA600CE4900 /* MWebSocket.cpp */; };
 		4057E99719FE1AA600CE4900 /* MWebSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4057E99419FE1AA600CE4900 /* MWebSocket.cpp */; };
 		40715DC619FE0D2800F177EA /* UI_Login.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40715DC419FE0D2800F177EA /* UI_Login.cpp */; };
@@ -262,6 +264,8 @@
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4007FD621A062C6000C22BD1 /* RequestTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RequestTest.cpp; sourceTree = "<group>"; };
 		4007FD631A062C6000C22BD1 /* RequestTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestTest.h; sourceTree = "<group>"; };
+		40174C9E1A1B7B99008DB8D5 /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameData.h; sourceTree = "<group>"; };
+		40174C9F1A1B7B99008DB8D5 /* GameData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameData.cpp; sourceTree = "<group>"; };
 		4057E99419FE1AA600CE4900 /* MWebSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MWebSocket.cpp; sourceTree = "<group>"; };
 		4057E99519FE1AA600CE4900 /* MWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWebSocket.h; sourceTree = "<group>"; };
 		40715DC419FE0D2800F177EA /* UI_Login.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UI_Login.cpp; sourceTree = "<group>"; };
@@ -548,6 +552,8 @@
 		40C1340B1A008E52009ED36A /* data */ = {
 			isa = PBXGroup;
 			children = (
+				40174C9E1A1B7B99008DB8D5 /* GameData.h */,
+				40174C9F1A1B7B99008DB8D5 /* GameData.cpp */,
 				40C1340C1A008E63009ED36A /* NetData.cpp */,
 				40C1340D1A008E63009ED36A /* NetData.h */,
 			);
@@ -833,6 +839,7 @@
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,
 				40E96FD91A027C680047E097 /* NetLogic.cpp in Sources */,
+				40174CA01A1B7B99008DB8D5 /* GameData.cpp in Sources */,
 				4007FD641A062C6000C22BD1 /* RequestTest.cpp in Sources */,
 				40C134071A008DDA009ED36A /* HandReciveData.cpp in Sources */,
 			);
@@ -851,6 +858,7 @@
 				40C1341F1A009944009ED36A /* HashMap.cpp in Sources */,
 				40C134271A009A9E009ED36A /* HashEntry.cpp in Sources */,
 				40AB988F1A033685007BABEF /* SendNetWork.cpp in Sources */,
+				40174CA11A1B7B99008DB8D5 /* GameData.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				40C134231A00998E009ED36A /* ResponseCommand.cpp in Sources */,
 				40C134151A009601009ED36A /* SymbolLoader.cpp in Sources */,

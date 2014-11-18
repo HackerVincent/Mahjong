@@ -3,7 +3,10 @@
 
 #include "cocos2d.h"
 #include "Net/MWebSocket.h"
-
+#include "extensions/cocos-ext.h"
+#include "network/HttpClient.h"
+USING_NS_CC;
+using namespace cocos2d::network;
 class HelloWorld : public cocos2d::Layer
 {
 public:
@@ -23,7 +26,7 @@ public:
     void Http();
     
     void update(float dt);
-    
+    void onHttpRequestCompleted(HttpClient *sender, HttpResponse *response);
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
     MWebSocket* _socket;

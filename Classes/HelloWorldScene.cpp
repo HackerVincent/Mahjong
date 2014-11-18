@@ -106,24 +106,93 @@ void HelloWorld::send()
 
 void HelloWorld::Http()
 {
+    
 //    HttpRequest* request = new HttpRequest();
 //    request->setUrl("http://httpbin.org/post");
 //    request->setRequestType(HttpRequest::Type::POST);
-//    request->setResponseCallback(CC_CALLBACK_2(HttpClientTest::onHttpRequestCompleted, this));
-//    
+//    request->setResponseCallback(CC_CALLBACK_2(HelloWorld::onHttpRequestCompleted, this));
+    
+    
+    
+    HttpRequest* request = new HttpRequest();
+    request->setUrl("http://1.93.31.157:8081/GCenter/guestLogin?gameId=20001&channelName=default&os=android&clientId=123&versionCode=1");
+    request->setRequestType(HttpRequest::Type::GET);
+    request->setResponseCallback(CC_CALLBACK_2(HelloWorld::onHttpRequestCompleted, this));
+//    if (isImmediate)
+//    {
+//        request->setTag("GET immediate test1");
+        HttpClient::getInstance()->sendImmediate(request);
+//    }else
+//    {
+        request->setTag("guestLogin");
+//        HttpClient::getInstance()->send(request);
+//    }
+    request->release();
+    
+    
 //    // write the post data
 //    char postData[22] = "binary=hello\0\0cocos2d";  // including \0, the strings after \0 should not be cut in response
 //    request->setRequestData(postData, 22);
-//    if (isImmediate)
-//    {
-//        request->setTag("POST Binary immediate test");
-//        HttpClient::getInstance()->sendImmediate(request);
-//    }else
-//    {
+////    if (isImmediate)
+////    {
+////        request->setTag("POST Binary immediate test");
+////        HttpClient::getInstance()->sendImmediate(request);
+////    }else
+////    {
 //        request->setTag("POST Binary test");
 //        HttpClient::getInstance()->send(request);
-//    }
+////    }
 //    request->release();
+}
+
+
+void HelloWorld::onHttpRequestCompleted(cocos2d::network::HttpClient *sender, cocos2d::network::HttpResponse *response)
+{
+    if (!response)
+    {
+        return;
+    }
+    
+    // You can get original request type from: response->request->reqType
+    if (0 != strlen(response->getHttpRequest()->getTag()))
+    {
+        log("%s completed", response->getHttpRequest()->getTag());
+    }
+    
+    long statusCode = response->getResponseCode();
+    char statusString[64] = {};
+    sprintf(statusString, "HTTP Status Code: %ld, tag = %s", statusCode, response->getHttpRequest()->getTag());
+//    _labelStatusCode->setString(statusString);
+    log("response code: %ld", statusCode);
+    
+    if (!response->isSucceed())
+    {
+        log("response failed");
+        log("error buffer: %s", response->getErrorBuffer());
+        return;
+    }
+    
+    // dump data
+    std::vector<char> *buffer = response->getResponseData();
+    printf("Http Test, dump data: ");
+    std::string temp_data = "";
+    for (unsigned int i = 0; i < buffer->size(); i++)
+    {
+        temp_data += (*buffer)[i];
+        printf("%c", (*buffer)[i]);
+    }
+    printf("\n");
+    
+    if (0 != strlen(response->getHttpRequest()->getTag()))
+    {
+        log("%s completed", response->getHttpRequest()->getTag());
+    }
+    
+    
+    if (response->getHttpRequest()->getReferenceCount() != 2)
+    {
+        log("request ref count not 2, is %d", response->getHttpRequest()->getReferenceCount());
+    }
 }
 
 void HelloWorld::menuCloseCallback(Ref* pSender)
