@@ -33,8 +33,6 @@
 		40174CAF1A1B9147008DB8D5 /* GameData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40174CAC1A1B9147008DB8D5 /* GameData.cpp */; };
 		4057E99619FE1AA600CE4900 /* MWebSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4057E99419FE1AA600CE4900 /* MWebSocket.cpp */; };
 		4057E99719FE1AA600CE4900 /* MWebSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4057E99419FE1AA600CE4900 /* MWebSocket.cpp */; };
-		40715DC619FE0D2800F177EA /* UI_Login.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40715DC419FE0D2800F177EA /* UI_Login.cpp */; };
-		40715DC719FE0D2800F177EA /* UI_Login.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40715DC419FE0D2800F177EA /* UI_Login.cpp */; };
 		40715DD319FE10A500F177EA /* MThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40715DD119FE10A500F177EA /* MThread.cpp */; };
 		40715DD419FE10A500F177EA /* MThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40715DD119FE10A500F177EA /* MThread.cpp */; };
 		408EF5A119FE348E0058B891 /* CommonCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408EF59F19FE348E0058B891 /* CommonCommand.cpp */; };
@@ -59,6 +57,10 @@
 		40C134371A012075009ED36A /* ModelEnter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C134341A012075009ED36A /* ModelEnter.cpp */; };
 		40C1343C1A0121E2009ED36A /* RequestCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C1343A1A0121E2009ED36A /* RequestCommand.cpp */; };
 		40C1343D1A0121E2009ED36A /* RequestCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C1343A1A0121E2009ED36A /* RequestCommand.cpp */; };
+		40C1522B1A1E255D000940E6 /* UI_Login.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C152291A1E255D000940E6 /* UI_Login.cpp */; };
+		40C1522C1A1E255D000940E6 /* UI_Login.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C152291A1E255D000940E6 /* UI_Login.cpp */; };
+		40C152321A1E2F11000940E6 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = 40C152311A1E2F11000940E6 /* UI */; };
+		40C152331A1E2F11000940E6 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = 40C152311A1E2F11000940E6 /* UI */; };
 		40E96FD91A027C680047E097 /* NetLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40E96FD71A027C680047E097 /* NetLogic.cpp */; };
 		40E96FDA1A027C680047E097 /* NetLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40E96FD71A027C680047E097 /* NetLogic.cpp */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
@@ -272,8 +274,6 @@
 		40174CAD1A1B9147008DB8D5 /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameData.h; sourceTree = "<group>"; };
 		4057E99419FE1AA600CE4900 /* MWebSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MWebSocket.cpp; sourceTree = "<group>"; };
 		4057E99519FE1AA600CE4900 /* MWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWebSocket.h; sourceTree = "<group>"; };
-		40715DC419FE0D2800F177EA /* UI_Login.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UI_Login.cpp; sourceTree = "<group>"; };
-		40715DC519FE0D2800F177EA /* UI_Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI_Login.h; sourceTree = "<group>"; };
 		40715DD119FE10A500F177EA /* MThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MThread.cpp; sourceTree = "<group>"; };
 		40715DD219FE10A500F177EA /* MThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MThread.h; sourceTree = "<group>"; };
 		408EF59F19FE348E0058B891 /* CommonCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; path = CommonCommand.cpp; sourceTree = "<group>"; };
@@ -298,6 +298,9 @@
 		40C134351A012075009ED36A /* ModelEnter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelEnter.h; sourceTree = "<group>"; };
 		40C1343A1A0121E2009ED36A /* RequestCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RequestCommand.cpp; sourceTree = "<group>"; };
 		40C1343B1A0121E2009ED36A /* RequestCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestCommand.h; sourceTree = "<group>"; };
+		40C152291A1E255D000940E6 /* UI_Login.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UI_Login.cpp; sourceTree = "<group>"; };
+		40C1522A1A1E255D000940E6 /* UI_Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI_Login.h; sourceTree = "<group>"; };
+		40C152311A1E2F11000940E6 /* UI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UI; sourceTree = "<group>"; };
 		40E96FD71A027C680047E097 /* NetLogic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetLogic.cpp; sourceTree = "<group>"; };
 		40E96FD81A027C680047E097 /* NetLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetLogic.h; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
@@ -408,6 +411,7 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				40C152261A1E254C000940E6 /* UI */,
 				40174CAB1A1B9119008DB8D5 /* GameDate */,
 				40715DC119FE0D0300F177EA /* Net */,
 				40715DC219FE0D0300F177EA /* Scene */,
@@ -522,8 +526,6 @@
 		40715DC219FE0D0300F177EA /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				40715DC419FE0D2800F177EA /* UI_Login.cpp */,
-				40715DC519FE0D2800F177EA /* UI_Login.h */,
 			);
 			name = Scene;
 			path = ../Classes/Scene;
@@ -575,6 +577,16 @@
 			path = data;
 			sourceTree = "<group>";
 		};
+		40C152261A1E254C000940E6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				40C152291A1E255D000940E6 /* UI_Login.cpp */,
+				40C1522A1A1E255D000940E6 /* UI_Login.h */,
+			);
+			name = UI;
+			path = ../Classes/UI;
+			sourceTree = "<group>";
+		};
 		503AE0F517EB97AB00D1A890 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
@@ -623,6 +635,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				40C152311A1E2F11000940E6 /* UI */,
 				1AFAF8B916D35E4900DB1158 /* CloseNormal.png */,
 				1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */,
 				1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */,
@@ -795,6 +808,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C152321A1E2F11000940E6 /* UI in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
@@ -821,6 +835,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C152331A1E2F11000940E6 /* UI in Resources */,
 				5087E75317EB910900C73F5D /* CloseNormal.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				5087E75417EB910900C73F5D /* CloseSelected.png in Resources */,
@@ -838,7 +853,6 @@
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				40174CAE1A1B9147008DB8D5 /* GameData.cpp in Sources */,
 				40C1341E1A009944009ED36A /* HashMap.cpp in Sources */,
-				40715DC619FE0D2800F177EA /* UI_Login.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				40AB988E1A033685007BABEF /* SendNetWork.cpp in Sources */,
 				40C134261A009A9E009ED36A /* HashEntry.cpp in Sources */,
@@ -854,6 +868,7 @@
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				40715DD319FE10A500F177EA /* MThread.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				40C1522B1A1E255D000940E6 /* UI_Login.cpp in Sources */,
 				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,
 				40E96FD91A027C680047E097 /* NetLogic.cpp in Sources */,
 				4007FD641A062C6000C22BD1 /* RequestTest.cpp in Sources */,
@@ -866,6 +881,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40C134081A008DDA009ED36A /* HandReciveData.cpp in Sources */,
+				40C1522C1A1E255D000940E6 /* UI_Login.cpp in Sources */,
 				40715DD419FE10A500F177EA /* MThread.cpp in Sources */,
 				5087E75717EB910900C73F5D /* AppDelegate.cpp in Sources */,
 				40E96FDA1A027C680047E097 /* NetLogic.cpp in Sources */,
@@ -877,7 +893,6 @@
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				40C134231A00998E009ED36A /* ResponseCommand.cpp in Sources */,
 				40C134151A009601009ED36A /* SymbolLoader.cpp in Sources */,
-				40715DC719FE0D2800F177EA /* UI_Login.cpp in Sources */,
 				40C1343D1A0121E2009ED36A /* RequestCommand.cpp in Sources */,
 				40174CAA1A1B8F57008DB8D5 /* jionsx.cpp in Sources */,
 				4057E99719FE1AA600CE4900 /* MWebSocket.cpp in Sources */,

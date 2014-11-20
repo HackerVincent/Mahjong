@@ -186,8 +186,9 @@ void HelloWorld::onHttpRequestCompleted(cocos2d::network::HttpClient *sender, co
     jionsx* temps = new jionsx(temp_data);
     printf("\n");
     
-    
-    if(response->getHttpRequest()->getTag() == "guestLogin")
+    string requestTag = response->getHttpRequest()->getTag();
+    CCLOG("requestTag-------->%s",requestTag.c_str());
+    if(requestTag.compare("guestLogin") == 0)
     {
         GameData::getInstance()->setID(temps->getStringValue("id"));
         GameData::getInstance()->setUserId(temps->getStringValue("userId"));

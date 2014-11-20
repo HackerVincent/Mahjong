@@ -1,6 +1,7 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
 #include "Net/NetLogic.h"
+#include "UI/UI_Login.h"
 
 USING_NS_CC;
 
@@ -38,8 +39,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     
     
     // create a scene. it's an autorelease object
-    auto scene = HelloWorld::createScene();
-
+//    auto scene = HelloWorld::createScene();
+    auto scene = UI_Login::scene();
     // run
     director->runWithScene(scene);
     director->setNotificationNode(NetLogic::create());
