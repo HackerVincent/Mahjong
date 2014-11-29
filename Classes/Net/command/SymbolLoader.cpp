@@ -9,6 +9,9 @@
 #include "SymbolLoader.h"
 #include "Net/data/NetData.h"
 #include "Tools/HashMap.h"
+#include "Net/reponse/ResponseRoomList.h"
+#include "Net/reponse/ResponseTable.h"
+#include "Net/reponse/ResponseExitRoom.h"
 SymbolLoader* SymbolLoader::instanc = NULL;
 SymbolLoader* SymbolLoader::getInstance(){
     if(instanc == NULL){
@@ -16,10 +19,12 @@ SymbolLoader* SymbolLoader::getInstance(){
     }
     return instanc;
 }
+
 SymbolLoader::SymbolLoader(){
     symbols = new Hashmap();
-//    symbols->put(NetData::MODEL_ID_ENTERGAME,new ResponseEnterGame());
-//    symbols->put(NetData::MODEL_ID_USERINFO,new ResponseUserInfo());
+    symbols->put(NetData::MODLE_ID_ROOM_LIST,new ResponseRoomList());
+    symbols->put(NetData::MODLE_ID_ENTER_ROOM,new ResponseTable());
+    symbols->put(NetData::MODLE_ID_EXIT_ROOM, new ResponseExitRoom());
     
 }
 

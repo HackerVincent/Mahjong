@@ -16,27 +16,43 @@ public:
     static int HeartCount;
     static int HeartTimeSafe;
     /**********协议号***************/
-    enum DealNum
+//    enum DealNum
+//    {
+//        C_ENTER_GAME = 0x000A0001,//进入游戏
+//        S_NOREQUEST_RESP = 0x100A0000, //无请求的，服务器主动下发的协议
+//        PLAYEINFO_ = 50200,
+//    };
+    /*************协议号*****************/
+    enum ChannelId
     {
-        C_ENTER_GAME = 0x000A0001,//进入游戏
-        S_NOREQUEST_RESP = 0x100A0000, //无请求的，服务器主动下发的协议
+        CHANNEL_ID_HEART = 10100,             // 心跳
+        CHANNEL_ID_LOGIN_SERVER = 10200,      // 登陆游戏服务器
+        CHANNEL_ID_ROOM_LIST = 10300,         // 请求房间列表
+        CHANNEL_ID_ENTER_ROOM = 10400,        // 进入房间（桌子）
+        CHANNEL_ID_EXIT_ROOM = 10500,         // 离开房间（桌子）
+        CHANNEL_ID_CLICK_READY = 10600,       // 点击准备
+        CHANNEL_ID_DOUBLE = 10700,            // 加倍
+        CHANNEL_ID_TABLE_RANDOM_NUM = 10800,  // table随机数收集
+        CHANNEL_ID_PUT_CARD = 10900,          // 出牌
     };
+    
     /*************模块号*****************/
-    enum ModelNum
+    enum ModleId
     {
-        MODEL_ID_ENTERGAME = 1,//
-        MODEL_ID_SELECTROOM = 2, //
-        MODEL_ID_CHAT = 3,//聊天
-        MODEL_ID_TIPS = 4,//提示
-        MODEL_ID_CARD =5,
-        MODEL_ID_UPDATE_CLOCK = 6,
-        MODEL_ID_ENTERTABLE = 7,
-        MODEL_ID_ENTERTABLE_OTHERS = 8,
-        MODEL_ID_READY = 9,
-        MODEL_ID_TABLE_INFO = 11,
-        MODEL_ID_TASK= 12,
-        MODEL_ID_SETTLEMENT = 13,//结算
+        MODLE_ID_HEART = 50100,             // 心跳
+        MODLE_ID_LOGIN_SERVER = 50200,      // 登陆游戏服务器
+        MODLE_ID_ROOM_LIST = 50300,         // 请求房间列表
+        MODLE_ID_ENTER_ROOM = 50400,        // tableInfo
+        MODLE_ID_EXIT_ROOM = 50500,         // 离开房间（桌子）
+        MODLE_ID_READY_COUNTDOWN = 50600,   // 提示准备倒计时（主动下发）
+        MODLE_ID_KICKOUT_ROOM = 50700,      // 提示被提出桌子（主动下发）
+        MODLE_ID_NORMAL_TIPS = 60000,       // 普通提示符（主动下发）
+        MODLE_ID_TOP_TIPS = 60100,          // 顶部提示符（主动下发）
+        MODLE_ID_ONE_BUTOON_TIPS = 60200,   // 带一个按钮提示符（主动下发）
+        MODLE_ID_TWO_BUTTON_TIPS = 60300,   // 带两个按钮提示符（主动下发）
+        MODLE_ID_WORLD_TIPS = 60400,        // 世界消息提示（主动下发）
     };
+    
     static bool isLock;
     static int recordCommonID;
     static int commonIDArray[];

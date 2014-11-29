@@ -9,6 +9,7 @@
 #include "MWebSocket.h"
 #include "Tools/HMessage.h"
 #include "Net/command/HandReciveData.h"
+#include "GameDate/GameData.h"
 USING_NS_CC;
 USING_NS_CC_EXT;
 
@@ -65,7 +66,10 @@ bool MWebSocket::init()
 //    {
 //        CC_SAFE_DELETE(_wsiSendBinary);
 //    }
-    if (!_wsiSendBinary->init(*this, "ws://127.0.0.1:8081/websocket"))
+    char buffer[512];
+//    sprintf(buffer, "ws://%s:%s/websocket", GameData::getInstance()->getIP().c_str(),GameData::getInstance()->getPort().c_str());
+    sprintf(buffer, "ws://localhost:8091/websocket");
+    if (!_wsiSendBinary->init(*this, buffer))
     {
         CC_SAFE_DELETE(_wsiSendBinary);
     }

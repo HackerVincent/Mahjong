@@ -14,13 +14,21 @@ bool NetData::isLock = false;
 int NetData::recordCommonID = 0;
 bool NetData::isOutLine = false;
 int NetData::commonIDArray[] = {
-    C_ENTER_GAME,
-    S_NOREQUEST_RESP
+    CHANNEL_ID_HEART,
+    CHANNEL_ID_LOGIN_SERVER,
+    CHANNEL_ID_ROOM_LIST,
+    CHANNEL_ID_ENTER_ROOM,
+    CHANNEL_ID_EXIT_ROOM,
+    CHANNEL_ID_CLICK_READY,
+    CHANNEL_ID_DOUBLE,
+    CHANNEL_ID_TABLE_RANDOM_NUM,
+    CHANNEL_ID_PUT_CARD
 };
 
 bool NetData::isHaveCommonID(int commonID){
+    
     for(int i=0;i<sizeof(commonIDArray);i++){
-        if(commonID == (commonIDArray[i]|0x01000000)){
+        if(commonID == commonIDArray[i]){
             return true;
         }
     }

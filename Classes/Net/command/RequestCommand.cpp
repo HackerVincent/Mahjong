@@ -20,9 +20,9 @@ RequestCommand::~RequestCommand()
 }
 HMessage* RequestCommand::CreatCmdPacket(){
     mes = new HMessage();
-    mes->put(1);
+//    mes->put(1);
 //    mes->putInt(atol(GameData::getInstance()->getServerInstaneId().c_str()));//参数
-    mes->putInt(1111);
+//    mes->putInt(1111);
 //    mes->putLong(GameData::getInstance()->getID());//服务器获取
     CreatBodyPack(mes);
     return mes;

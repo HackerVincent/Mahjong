@@ -3,7 +3,7 @@
 #include "Net/command/CommonCommand.h"
 #include "Scene/UI_Login.h"
 #include "Net/command/SendNetWork.h"
-#include "Net/request/RequestTest.h"
+#include "Net/request/RequestLoginServer.h"
 #include "extensions/cocos-ext.h"
 #include "network/HttpClient.h"
 #include "Tools/jionsx.h"
@@ -101,9 +101,12 @@ void HelloWorld::send()
     mess->putShort(20);
     mess->putLong(12);
     mess->putUTF8("fuck~~~~~~");
+    
+    
+    
+    
 //     发送消息
     CommonCommand::getInstance()->sendMessage(mess);
-//    SendNetWork::getInstance()->AddNetCommand(new RequestTest());
 }
 
 void HelloWorld::Http()
@@ -190,7 +193,8 @@ void HelloWorld::onHttpRequestCompleted(cocos2d::network::HttpClient *sender, co
     CCLOG("requestTag-------->%s",requestTag.c_str());
     if(requestTag.compare("guestLogin") == 0)
     {
-        GameData::getInstance()->setID(temps->getStringValue("id"));
+        GameData::getInstance()->setID(temps->getIntValue("id"));
+        CCLOG("id----->%d",GameData::getInstance()->getID());
         GameData::getInstance()->setUserId(temps->getStringValue("userId"));
         GameData::getInstance()->setUserPass(temps->getStringValue("userPass"));
         GameData::getInstance()->setUserName(temps->getStringValue("userName"));

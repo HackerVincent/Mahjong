@@ -22,22 +22,45 @@ public:
     
     
     // 登陆数据
-    void setID(std::string id){ _id = id;};
+    void setID(int id){ _id = id;};
+    int getID(){return _id;};
+    
     void setUserId(std::string userId){ _userId = userId;};
+    std::string getUserId(){return _userId;};
+    
     void setUserPass(std::string userPass){ _userPass = userPass;};
+    std::string getUserPass(){return _userPass;};
+    
     void setUserName(std::string userName){ _userName = userName;};
+    std::string getUserName(){return _userName;};
+    
     void setIconType(int iconType){ _iconType = iconType;};
+    int getIconType(){return _iconType;};
+    
     void setSex(int sex){ _sex = sex;};
+    int getSet(){return _sex;};
+    
     void setSkey(std::string skey){ _skey = skey;};
+    std::string getSkey(){return _skey;};
+    
     void setIP(std::string Ip){ _ip = Ip;};
+    std::string getIP(){return _ip;};
+    
     void setPort(std::string Port){ _port = Port;};
+    std::string getPort(){return _port;};
+    
     void setState(int State){ _state = State;};
+    int getState(){return _state;};
+    
     void setUpdate(bool update){ _update = update;};
+    bool getUpdate(){return _update;};
+    
     void setDownUrl(std::string downUrl){ _downUrl = downUrl;};
+    std::string getDownUrl(){return _downUrl;};
     
 protected:
     // 玩家uid，用于登陆游戏服务器
-    std::string _id;
+    int _id;
     // 服务器自动分配的数字账号
     std::string _userId;
     // 账号密码

@@ -9,7 +9,9 @@
 #include "UI_Login.h"
 #include "GameDate/GameData.h"
 #include "Tools/jionsx.h"
+#include "UI/UI_Hall.h"
 #include "HelloWorldScene.h"
+#include "Net/command/CommonCommand.h"
 using namespace cocostudio;
 using namespace std;
 UI_Login::UI_Login()
@@ -35,7 +37,7 @@ bool UI_Login::init()
     bool bRet = false;
     do{
         CC_BREAK_IF( !Layer::init());
-        auto layout = dynamic_cast<Layout*>(GUIReader::getInstance()->widgetFromJsonFile("UI/UI_Login/UI_Login.json"));
+        auto layout = dynamic_cast<Layout*>(GUIReader::getInstance()->widgetFromJsonFile("UI/UI_Login.json"));
         addChild(layout);
         // 游客登陆
         auto btn_next = dynamic_cast<Button*>(Helper::seekWidgetByName(layout, "btn_guest"));
@@ -56,13 +58,15 @@ void UI_Login::guestLogin(cocos2d::Ref *pSender, cocos2d::ui::Widget::TouchEvent
             break;
         case Widget::TouchEventType::ENDED:
         {
-            HttpRequest* request = new HttpRequest();
-            request->setUrl("http://1.93.31.157:8081/GCenter/guestLogin?gameId=20001&channelName=default&os=android&clientId=123&versionCode=1");
-            request->setRequestType(HttpRequest::Type::GET);
-            request->setResponseCallback(CC_CALLBACK_2(UI_Login::onHttpRequestCompleted, this));
-            HttpClient::getInstance()->sendImmediate(request);
-            request->setTag(GUEST_LOGIN);
-            request->release();
+//            HttpRequest* request = new HttpRequest();
+//            request->setUrl("http://192.168.1.113:8081/GCenter/guestLogin?gameId=20001&channelName=default&os=android&clientId=123&versionCode=1");
+//            request->setRequestType(HttpRequest::Type::GET);
+//            request->setResponseCallback(CC_CALLBACK_2(UI_Login::onHttpRequestCompleted, this));
+//            HttpClient::getInstance()->sendImmediate(request);
+//            request->setTag(GUEST_LOGIN);
+//            request->release();
+            auto scene = UI_Hall::scene();
+            Director::getInstance()->replaceScene(scene);
         }
             break;
         default:
@@ -110,7 +114,7 @@ void UI_Login::onHttpRequestCompleted(cocos2d::network::HttpClient *sender, coco
     CCLOG("requestTag-------->%s",requestTag.c_str());
     if(requestTag.compare(GUEST_LOGIN) == 0)
     {
-        GameData::getInstance()->setID(temps->getStringValue("id"));
+        GameData::getInstance()->setID(temps->getIntValue("id"));
         GameData::getInstance()->setUserId(temps->getStringValue("userId"));
         GameData::getInstance()->setUserPass(temps->getStringValue("userPass"));
         GameData::getInstance()->setUserName(temps->getStringValue("userName"));
@@ -134,7 +138,12 @@ void UI_Login::onHttpRequestCompleted(cocos2d::network::HttpClient *sender, coco
     {
         log("request ref count not 2, is %d", response->getHttpRequest()->getReferenceCount());
     }
+    // 建立socket连接
+    CommonCommand::getInstance()->creatConnection();
     
-    auto scene = HelloWorld::createScene();
+    
+    
+//    auto scene = HelloWorld::createScene();
+    auto scene = UI_Hall::scene();
     Director::getInstance()->replaceScene(scene);
 }

@@ -1,7 +1,7 @@
 //
 //  RequestTest.h
 //  Mahjong
-//
+//  登陆服务器
 //  Created by tiki on 14/11/2.
 //
 //
@@ -13,7 +13,7 @@
 #include "RequestCommand.h"
 #include "Tools/HMessage.h"
 
-class RequestTest : public RequestCommand
+class RequestLoginServer : public RequestCommand
 {
 public:
     virtual void CreatBodyPack(HMessage* mes);

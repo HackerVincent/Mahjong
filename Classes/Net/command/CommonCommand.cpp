@@ -7,6 +7,7 @@
 //
 
 #include "CommonCommand.h"
+#include "GameDate/GameData.h"
 CommonCommand::CommonCommand()
 :isClose(true)
 ,mSocket(NULL)
@@ -78,9 +79,14 @@ bool CommonCommand::sendMessage(HMessage* mes){
     /******* 消息头部 *******/
     messHead->putShort(-1000);                  // prefix 数据开始标志 传  -1000
     messHead->putInt(0);                        // occupy 占位  传0
-    messHead->putInt(1001);                     // uid 玩家id
-    messHead->putInt(10001);                    // channelId 请求标志
-    messHead->putUTF8("test");                      // skey 验证用 传空字符串
+    
+    messHead->putInt(255);                     // uid 玩家id
+//    messHead->putInt(GameData::getInstance()->getID());
+
+    
+    messHead->putInt(commondID);                    // channelId 请求标志
+//    messHead->putUTF8("test");                      // skey 验证用 传空字符串
+    messHead->putUTF8(GameData::getInstance()->getSkey().c_str());
     // 预留两个int位
     messHead->skip(4);                          // totalLen 消息总长
     messHead->putInt(mes->getlengths());        // dataLen 数据区长度

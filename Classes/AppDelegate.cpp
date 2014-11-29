@@ -19,7 +19,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto glview = director->getOpenGLView();
     if(!glview) {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_MAC)
-        glview = GLView::createWithRect("Mahjong", Rect(0, 0, 1280 * 0.85f, 720 * 0.85f));
+        glview = GLView::createWithRect("Mahjong", Rect(0, 0, 1280 , 720));
 #elif (CC_TARGET_PLATFORM == CC_PLATFORM_LINUX)
         glview = GLView::createWithRect("Mahjong", Rect(0, 0, 1280, 720));
 #elif (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32)

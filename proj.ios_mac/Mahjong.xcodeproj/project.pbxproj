@@ -25,8 +25,8 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		4007FD641A062C6000C22BD1 /* RequestTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4007FD621A062C6000C22BD1 /* RequestTest.cpp */; };
-		4007FD651A062C6000C22BD1 /* RequestTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4007FD621A062C6000C22BD1 /* RequestTest.cpp */; };
+		4007FD641A062C6000C22BD1 /* RequestLoginServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4007FD621A062C6000C22BD1 /* RequestLoginServer.cpp */; };
+		4007FD651A062C6000C22BD1 /* RequestLoginServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4007FD621A062C6000C22BD1 /* RequestLoginServer.cpp */; };
 		40174CA91A1B8F57008DB8D5 /* jionsx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40174CA71A1B8F57008DB8D5 /* jionsx.cpp */; };
 		40174CAA1A1B8F57008DB8D5 /* jionsx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40174CA71A1B8F57008DB8D5 /* jionsx.cpp */; };
 		40174CAE1A1B9147008DB8D5 /* GameData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40174CAC1A1B9147008DB8D5 /* GameData.cpp */; };
@@ -35,10 +35,42 @@
 		4057E99719FE1AA600CE4900 /* MWebSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4057E99419FE1AA600CE4900 /* MWebSocket.cpp */; };
 		40715DD319FE10A500F177EA /* MThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40715DD119FE10A500F177EA /* MThread.cpp */; };
 		40715DD419FE10A500F177EA /* MThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40715DD119FE10A500F177EA /* MThread.cpp */; };
+		407EC2391A21B831005BB51C /* RequestRoomList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 407EC2371A21B831005BB51C /* RequestRoomList.cpp */; };
+		407EC23A1A21B831005BB51C /* RequestRoomList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 407EC2371A21B831005BB51C /* RequestRoomList.cpp */; };
+		407EC2411A21BE69005BB51C /* RequestTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 407EC23F1A21BE69005BB51C /* RequestTable.cpp */; };
+		407EC2421A21BE69005BB51C /* RequestTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 407EC23F1A21BE69005BB51C /* RequestTable.cpp */; };
+		408AAE501A29A6D5000F4E17 /* RequestExitRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE4E1A29A6D5000F4E17 /* RequestExitRoom.cpp */; };
+		408AAE511A29A6D5000F4E17 /* RequestExitRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE4E1A29A6D5000F4E17 /* RequestExitRoom.cpp */; };
+		408AAE561A29A869000F4E17 /* ResponseExitRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE541A29A869000F4E17 /* ResponseExitRoom.cpp */; };
+		408AAE571A29A869000F4E17 /* ResponseExitRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE541A29A869000F4E17 /* ResponseExitRoom.cpp */; };
+		408AAE5A1A29AC05000F4E17 /* ResponseReadyClick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE581A29AC05000F4E17 /* ResponseReadyClick.cpp */; };
+		408AAE5B1A29AC05000F4E17 /* ResponseReadyClick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE581A29AC05000F4E17 /* ResponseReadyClick.cpp */; };
+		408AAE5E1A29AC8C000F4E17 /* RequestReadyClick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE5C1A29AC8C000F4E17 /* RequestReadyClick.cpp */; };
+		408AAE5F1A29AC8C000F4E17 /* RequestReadyClick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE5C1A29AC8C000F4E17 /* RequestReadyClick.cpp */; };
+		408AAE621A29B65B000F4E17 /* RequestDouble.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE601A29B65B000F4E17 /* RequestDouble.cpp */; };
+		408AAE631A29B65B000F4E17 /* RequestDouble.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE601A29B65B000F4E17 /* RequestDouble.cpp */; };
+		408AAE661A29B6A7000F4E17 /* ResponseDouble.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE641A29B6A7000F4E17 /* ResponseDouble.cpp */; };
+		408AAE671A29B6A7000F4E17 /* ResponseDouble.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE641A29B6A7000F4E17 /* ResponseDouble.cpp */; };
+		408AAE6A1A29B825000F4E17 /* ResponseTableInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE681A29B825000F4E17 /* ResponseTableInfo.cpp */; };
+		408AAE6B1A29B825000F4E17 /* ResponseTableInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE681A29B825000F4E17 /* ResponseTableInfo.cpp */; };
+		408AAE741A2A1ADE000F4E17 /* ResponsePutCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE721A2A1ADE000F4E17 /* ResponsePutCard.cpp */; };
+		408AAE751A2A1ADE000F4E17 /* ResponsePutCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE721A2A1ADE000F4E17 /* ResponsePutCard.cpp */; };
+		408AAE781A2A27F8000F4E17 /* RequestPutCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE761A2A27F8000F4E17 /* RequestPutCard.cpp */; };
+		408AAE791A2A27F8000F4E17 /* RequestPutCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408AAE761A2A27F8000F4E17 /* RequestPutCard.cpp */; };
 		408EF5A119FE348E0058B891 /* CommonCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408EF59F19FE348E0058B891 /* CommonCommand.cpp */; };
 		408EF5A219FE348E0058B891 /* CommonCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 408EF59F19FE348E0058B891 /* CommonCommand.cpp */; };
 		40AB988E1A033685007BABEF /* SendNetWork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40AB988C1A033685007BABEF /* SendNetWork.cpp */; };
 		40AB988F1A033685007BABEF /* SendNetWork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40AB988C1A033685007BABEF /* SendNetWork.cpp */; };
+		40B599FC1A202B700095E1F1 /* UI_Hall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40B599FA1A202B700095E1F1 /* UI_Hall.cpp */; };
+		40B599FD1A202B700095E1F1 /* UI_Hall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40B599FA1A202B700095E1F1 /* UI_Hall.cpp */; };
+		40B59A011A20C19D0095E1F1 /* GameTile in Resources */ = {isa = PBXBuildFile; fileRef = 40B59A001A20C19D0095E1F1 /* GameTile */; };
+		40B59A021A20C19D0095E1F1 /* GameTile in Resources */ = {isa = PBXBuildFile; fileRef = 40B59A001A20C19D0095E1F1 /* GameTile */; };
+		40B59A0A1A20C3B30095E1F1 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40B59A081A20C3B30095E1F1 /* Card.cpp */; };
+		40B59A0B1A20C3B30095E1F1 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40B59A081A20C3B30095E1F1 /* Card.cpp */; };
+		40B59A0E1A20CFD40095E1F1 /* UI_Tabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40B59A0C1A20CFD40095E1F1 /* UI_Tabel.cpp */; };
+		40B59A0F1A20CFD40095E1F1 /* UI_Tabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40B59A0C1A20CFD40095E1F1 /* UI_Tabel.cpp */; };
+		40B59A121A20D53E0095E1F1 /* PlayerInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40B59A101A20D53E0095E1F1 /* PlayerInfo.cpp */; };
+		40B59A131A20D53E0095E1F1 /* PlayerInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40B59A101A20D53E0095E1F1 /* PlayerInfo.cpp */; };
 		40C134071A008DDA009ED36A /* HandReciveData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C134051A008DDA009ED36A /* HandReciveData.cpp */; };
 		40C134081A008DDA009ED36A /* HandReciveData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C134051A008DDA009ED36A /* HandReciveData.cpp */; };
 		40C1340E1A008E63009ED36A /* NetData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C1340C1A008E63009ED36A /* NetData.cpp */; };
@@ -61,6 +93,12 @@
 		40C1522C1A1E255D000940E6 /* UI_Login.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C152291A1E255D000940E6 /* UI_Login.cpp */; };
 		40C152321A1E2F11000940E6 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = 40C152311A1E2F11000940E6 /* UI */; };
 		40C152331A1E2F11000940E6 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = 40C152311A1E2F11000940E6 /* UI */; };
+		40C26CAA1A261891001F4A30 /* DynamicData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C26CA81A261891001F4A30 /* DynamicData.cpp */; };
+		40C26CAB1A261891001F4A30 /* DynamicData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C26CA81A261891001F4A30 /* DynamicData.cpp */; };
+		40DA741C1A276DF800AA2787 /* ResponseRoomList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40DA741A1A276DF800AA2787 /* ResponseRoomList.cpp */; };
+		40DA741D1A276DF800AA2787 /* ResponseRoomList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40DA741A1A276DF800AA2787 /* ResponseRoomList.cpp */; };
+		40DA74221A276EBE00AA2787 /* ResponseTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40DA74201A276EBE00AA2787 /* ResponseTable.cpp */; };
+		40DA74231A276EBE00AA2787 /* ResponseTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40DA74201A276EBE00AA2787 /* ResponseTable.cpp */; };
 		40E96FD91A027C680047E097 /* NetLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40E96FD71A027C680047E097 /* NetLogic.cpp */; };
 		40E96FDA1A027C680047E097 /* NetLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40E96FD71A027C680047E097 /* NetLogic.cpp */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
@@ -266,8 +304,8 @@
 		1D6058910D05DD3D006BFB54 /* Mahjong iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mahjong iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4007FD621A062C6000C22BD1 /* RequestTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RequestTest.cpp; sourceTree = "<group>"; };
-		4007FD631A062C6000C22BD1 /* RequestTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestTest.h; sourceTree = "<group>"; };
+		4007FD621A062C6000C22BD1 /* RequestLoginServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RequestLoginServer.cpp; sourceTree = "<group>"; };
+		4007FD631A062C6000C22BD1 /* RequestLoginServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestLoginServer.h; sourceTree = "<group>"; };
 		40174CA71A1B8F57008DB8D5 /* jionsx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jionsx.cpp; sourceTree = "<group>"; };
 		40174CA81A1B8F57008DB8D5 /* jionsx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jionsx.h; sourceTree = "<group>"; };
 		40174CAC1A1B9147008DB8D5 /* GameData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameData.cpp; sourceTree = "<group>"; };
@@ -276,10 +314,41 @@
 		4057E99519FE1AA600CE4900 /* MWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWebSocket.h; sourceTree = "<group>"; };
 		40715DD119FE10A500F177EA /* MThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MThread.cpp; sourceTree = "<group>"; };
 		40715DD219FE10A500F177EA /* MThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MThread.h; sourceTree = "<group>"; };
+		407EC2371A21B831005BB51C /* RequestRoomList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RequestRoomList.cpp; sourceTree = "<group>"; };
+		407EC2381A21B831005BB51C /* RequestRoomList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestRoomList.h; sourceTree = "<group>"; };
+		407EC23F1A21BE69005BB51C /* RequestTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RequestTable.cpp; sourceTree = "<group>"; };
+		407EC2401A21BE69005BB51C /* RequestTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestTable.h; sourceTree = "<group>"; };
+		408AAE4E1A29A6D5000F4E17 /* RequestExitRoom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RequestExitRoom.cpp; sourceTree = "<group>"; };
+		408AAE4F1A29A6D5000F4E17 /* RequestExitRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestExitRoom.h; sourceTree = "<group>"; };
+		408AAE541A29A869000F4E17 /* ResponseExitRoom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResponseExitRoom.cpp; sourceTree = "<group>"; };
+		408AAE551A29A869000F4E17 /* ResponseExitRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseExitRoom.h; sourceTree = "<group>"; };
+		408AAE581A29AC05000F4E17 /* ResponseReadyClick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResponseReadyClick.cpp; sourceTree = "<group>"; };
+		408AAE591A29AC05000F4E17 /* ResponseReadyClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseReadyClick.h; sourceTree = "<group>"; };
+		408AAE5C1A29AC8C000F4E17 /* RequestReadyClick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RequestReadyClick.cpp; sourceTree = "<group>"; };
+		408AAE5D1A29AC8C000F4E17 /* RequestReadyClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestReadyClick.h; sourceTree = "<group>"; };
+		408AAE601A29B65B000F4E17 /* RequestDouble.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RequestDouble.cpp; sourceTree = "<group>"; };
+		408AAE611A29B65B000F4E17 /* RequestDouble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestDouble.h; sourceTree = "<group>"; };
+		408AAE641A29B6A7000F4E17 /* ResponseDouble.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResponseDouble.cpp; sourceTree = "<group>"; };
+		408AAE651A29B6A7000F4E17 /* ResponseDouble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseDouble.h; sourceTree = "<group>"; };
+		408AAE681A29B825000F4E17 /* ResponseTableInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResponseTableInfo.cpp; sourceTree = "<group>"; };
+		408AAE691A29B825000F4E17 /* ResponseTableInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseTableInfo.h; sourceTree = "<group>"; };
+		408AAE721A2A1ADE000F4E17 /* ResponsePutCard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResponsePutCard.cpp; sourceTree = "<group>"; };
+		408AAE731A2A1ADE000F4E17 /* ResponsePutCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponsePutCard.h; sourceTree = "<group>"; };
+		408AAE761A2A27F8000F4E17 /* RequestPutCard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RequestPutCard.cpp; sourceTree = "<group>"; };
+		408AAE771A2A27F8000F4E17 /* RequestPutCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestPutCard.h; sourceTree = "<group>"; };
 		408EF59F19FE348E0058B891 /* CommonCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483673; lastKnownFileType = sourcecode.cpp.cpp; path = CommonCommand.cpp; sourceTree = "<group>"; };
 		408EF5A019FE348E0058B891 /* CommonCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCommand.h; sourceTree = "<group>"; };
 		40AB988C1A033685007BABEF /* SendNetWork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SendNetWork.cpp; sourceTree = "<group>"; };
 		40AB988D1A033685007BABEF /* SendNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendNetWork.h; sourceTree = "<group>"; };
+		40B599FA1A202B700095E1F1 /* UI_Hall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UI_Hall.cpp; sourceTree = "<group>"; };
+		40B599FB1A202B700095E1F1 /* UI_Hall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI_Hall.h; sourceTree = "<group>"; };
+		40B59A001A20C19D0095E1F1 /* GameTile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GameTile; sourceTree = "<group>"; };
+		40B59A081A20C3B30095E1F1 /* Card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		40B59A091A20C3B30095E1F1 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		40B59A0C1A20CFD40095E1F1 /* UI_Tabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UI_Tabel.cpp; sourceTree = "<group>"; };
+		40B59A0D1A20CFD40095E1F1 /* UI_Tabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI_Tabel.h; sourceTree = "<group>"; };
+		40B59A101A20D53E0095E1F1 /* PlayerInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayerInfo.cpp; sourceTree = "<group>"; };
+		40B59A111A20D53E0095E1F1 /* PlayerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerInfo.h; sourceTree = "<group>"; };
 		40C134051A008DDA009ED36A /* HandReciveData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HandReciveData.cpp; sourceTree = "<group>"; };
 		40C134061A008DDA009ED36A /* HandReciveData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandReciveData.h; sourceTree = "<group>"; };
 		40C1340C1A008E63009ED36A /* NetData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetData.cpp; sourceTree = "<group>"; };
@@ -301,6 +370,12 @@
 		40C152291A1E255D000940E6 /* UI_Login.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UI_Login.cpp; sourceTree = "<group>"; };
 		40C1522A1A1E255D000940E6 /* UI_Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI_Login.h; sourceTree = "<group>"; };
 		40C152311A1E2F11000940E6 /* UI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UI; sourceTree = "<group>"; };
+		40C26CA81A261891001F4A30 /* DynamicData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicData.cpp; sourceTree = "<group>"; };
+		40C26CA91A261891001F4A30 /* DynamicData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicData.h; sourceTree = "<group>"; };
+		40DA741A1A276DF800AA2787 /* ResponseRoomList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResponseRoomList.cpp; sourceTree = "<group>"; };
+		40DA741B1A276DF800AA2787 /* ResponseRoomList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseRoomList.h; sourceTree = "<group>"; };
+		40DA74201A276EBE00AA2787 /* ResponseTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResponseTable.cpp; sourceTree = "<group>"; };
+		40DA74211A276EBE00AA2787 /* ResponseTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseTable.h; sourceTree = "<group>"; };
 		40E96FD71A027C680047E097 /* NetLogic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetLogic.cpp; sourceTree = "<group>"; };
 		40E96FD81A027C680047E097 /* NetLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetLogic.h; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
@@ -411,6 +486,7 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				40B59A071A20C3A90095E1F1 /* Game */,
 				40C152261A1E254C000940E6 /* UI */,
 				40174CAB1A1B9119008DB8D5 /* GameDate */,
 				40715DC119FE0D0300F177EA /* Net */,
@@ -490,8 +566,20 @@
 		4007FD5F1A062C4300C22BD1 /* request */ = {
 			isa = PBXGroup;
 			children = (
-				4007FD621A062C6000C22BD1 /* RequestTest.cpp */,
-				4007FD631A062C6000C22BD1 /* RequestTest.h */,
+				408AAE761A2A27F8000F4E17 /* RequestPutCard.cpp */,
+				408AAE771A2A27F8000F4E17 /* RequestPutCard.h */,
+				408AAE601A29B65B000F4E17 /* RequestDouble.cpp */,
+				408AAE611A29B65B000F4E17 /* RequestDouble.h */,
+				408AAE5C1A29AC8C000F4E17 /* RequestReadyClick.cpp */,
+				408AAE5D1A29AC8C000F4E17 /* RequestReadyClick.h */,
+				408AAE4E1A29A6D5000F4E17 /* RequestExitRoom.cpp */,
+				408AAE4F1A29A6D5000F4E17 /* RequestExitRoom.h */,
+				407EC23F1A21BE69005BB51C /* RequestTable.cpp */,
+				407EC2401A21BE69005BB51C /* RequestTable.h */,
+				407EC2371A21B831005BB51C /* RequestRoomList.cpp */,
+				407EC2381A21B831005BB51C /* RequestRoomList.h */,
+				4007FD621A062C6000C22BD1 /* RequestLoginServer.cpp */,
+				4007FD631A062C6000C22BD1 /* RequestLoginServer.h */,
 			);
 			path = request;
 			sourceTree = "<group>";
@@ -499,6 +587,8 @@
 		40174CAB1A1B9119008DB8D5 /* GameDate */ = {
 			isa = PBXGroup;
 			children = (
+				40C26CA81A261891001F4A30 /* DynamicData.cpp */,
+				40C26CA91A261891001F4A30 /* DynamicData.h */,
 				40174CAC1A1B9147008DB8D5 /* GameData.cpp */,
 				40174CAD1A1B9147008DB8D5 /* GameData.h */,
 			);
@@ -509,6 +599,7 @@
 		40715DC119FE0D0300F177EA /* Net */ = {
 			isa = PBXGroup;
 			children = (
+				407EC23E1A21B8D3005BB51C /* reponse */,
 				4007FD5F1A062C4300C22BD1 /* request */,
 				40E96FD71A027C680047E097 /* NetLogic.cpp */,
 				40E96FD81A027C680047E097 /* NetLogic.h */,
@@ -547,6 +638,27 @@
 			path = ../Classes/Tools;
 			sourceTree = "<group>";
 		};
+		407EC23E1A21B8D3005BB51C /* reponse */ = {
+			isa = PBXGroup;
+			children = (
+				408AAE721A2A1ADE000F4E17 /* ResponsePutCard.cpp */,
+				408AAE731A2A1ADE000F4E17 /* ResponsePutCard.h */,
+				408AAE681A29B825000F4E17 /* ResponseTableInfo.cpp */,
+				408AAE691A29B825000F4E17 /* ResponseTableInfo.h */,
+				408AAE641A29B6A7000F4E17 /* ResponseDouble.cpp */,
+				408AAE651A29B6A7000F4E17 /* ResponseDouble.h */,
+				408AAE581A29AC05000F4E17 /* ResponseReadyClick.cpp */,
+				408AAE591A29AC05000F4E17 /* ResponseReadyClick.h */,
+				408AAE541A29A869000F4E17 /* ResponseExitRoom.cpp */,
+				408AAE551A29A869000F4E17 /* ResponseExitRoom.h */,
+				40DA74201A276EBE00AA2787 /* ResponseTable.cpp */,
+				40DA74211A276EBE00AA2787 /* ResponseTable.h */,
+				40DA741A1A276DF800AA2787 /* ResponseRoomList.cpp */,
+				40DA741B1A276DF800AA2787 /* ResponseRoomList.h */,
+			);
+			path = reponse;
+			sourceTree = "<group>";
+		};
 		408EF59C19FE34760058B891 /* command */ = {
 			isa = PBXGroup;
 			children = (
@@ -568,6 +680,18 @@
 			path = command;
 			sourceTree = "<group>";
 		};
+		40B59A071A20C3A90095E1F1 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				40B59A101A20D53E0095E1F1 /* PlayerInfo.cpp */,
+				40B59A111A20D53E0095E1F1 /* PlayerInfo.h */,
+				40B59A081A20C3B30095E1F1 /* Card.cpp */,
+				40B59A091A20C3B30095E1F1 /* Card.h */,
+			);
+			name = Game;
+			path = ../Classes/Game;
+			sourceTree = "<group>";
+		};
 		40C1340B1A008E52009ED36A /* data */ = {
 			isa = PBXGroup;
 			children = (
@@ -580,6 +704,10 @@
 		40C152261A1E254C000940E6 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				40B59A0C1A20CFD40095E1F1 /* UI_Tabel.cpp */,
+				40B59A0D1A20CFD40095E1F1 /* UI_Tabel.h */,
+				40B599FA1A202B700095E1F1 /* UI_Hall.cpp */,
+				40B599FB1A202B700095E1F1 /* UI_Hall.h */,
 				40C152291A1E255D000940E6 /* UI_Login.cpp */,
 				40C1522A1A1E255D000940E6 /* UI_Login.h */,
 			);
@@ -635,6 +763,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				40B59A001A20C19D0095E1F1 /* GameTile */,
 				40C152311A1E2F11000940E6 /* UI */,
 				1AFAF8B916D35E4900DB1158 /* CloseNormal.png */,
 				1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */,
@@ -820,6 +949,7 @@
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
+				40B59A011A20C19D0095E1F1 /* GameTile in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
@@ -835,6 +965,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40B59A021A20C19D0095E1F1 /* GameTile in Resources */,
 				40C152331A1E2F11000940E6 /* UI in Resources */,
 				5087E75317EB910900C73F5D /* CloseNormal.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
@@ -851,10 +982,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				40DA741C1A276DF800AA2787 /* ResponseRoomList.cpp in Sources */,
+				40C26CAA1A261891001F4A30 /* DynamicData.cpp in Sources */,
 				40174CAE1A1B9147008DB8D5 /* GameData.cpp in Sources */,
+				408AAE5A1A29AC05000F4E17 /* ResponseReadyClick.cpp in Sources */,
+				40B59A121A20D53E0095E1F1 /* PlayerInfo.cpp in Sources */,
+				40B599FC1A202B700095E1F1 /* UI_Hall.cpp in Sources */,
+				408AAE781A2A27F8000F4E17 /* RequestPutCard.cpp in Sources */,
 				40C1341E1A009944009ED36A /* HashMap.cpp in Sources */,
+				408AAE501A29A6D5000F4E17 /* RequestExitRoom.cpp in Sources */,
+				40B59A0A1A20C3B30095E1F1 /* Card.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				40AB988E1A033685007BABEF /* SendNetWork.cpp in Sources */,
+				408AAE561A29A869000F4E17 /* ResponseExitRoom.cpp in Sources */,
 				40C134261A009A9E009ED36A /* HashEntry.cpp in Sources */,
 				40C1340E1A008E63009ED36A /* NetData.cpp in Sources */,
 				4057E99619FE1AA600CE4900 /* MWebSocket.cpp in Sources */,
@@ -864,14 +1004,23 @@
 				40C134141A009601009ED36A /* SymbolLoader.cpp in Sources */,
 				40C1342A1A00B335009ED36A /* HMessage.cpp in Sources */,
 				40174CA91A1B8F57008DB8D5 /* jionsx.cpp in Sources */,
+				408AAE741A2A1ADE000F4E17 /* ResponsePutCard.cpp in Sources */,
+				40B59A0E1A20CFD40095E1F1 /* UI_Tabel.cpp in Sources */,
 				40C134361A012075009ED36A /* ModelEnter.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				40715DD319FE10A500F177EA /* MThread.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				408AAE6A1A29B825000F4E17 /* ResponseTableInfo.cpp in Sources */,
 				40C1522B1A1E255D000940E6 /* UI_Login.cpp in Sources */,
+				40DA74221A276EBE00AA2787 /* ResponseTable.cpp in Sources */,
+				407EC2391A21B831005BB51C /* RequestRoomList.cpp in Sources */,
+				408AAE621A29B65B000F4E17 /* RequestDouble.cpp in Sources */,
 				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,
 				40E96FD91A027C680047E097 /* NetLogic.cpp in Sources */,
-				4007FD641A062C6000C22BD1 /* RequestTest.cpp in Sources */,
+				408AAE661A29B6A7000F4E17 /* ResponseDouble.cpp in Sources */,
+				4007FD641A062C6000C22BD1 /* RequestLoginServer.cpp in Sources */,
+				407EC2411A21BE69005BB51C /* RequestTable.cpp in Sources */,
+				408AAE5E1A29AC8C000F4E17 /* RequestReadyClick.cpp in Sources */,
 				40C134071A008DDA009ED36A /* HandReciveData.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -880,27 +1029,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				408AAE631A29B65B000F4E17 /* RequestDouble.cpp in Sources */,
 				40C134081A008DDA009ED36A /* HandReciveData.cpp in Sources */,
 				40C1522C1A1E255D000940E6 /* UI_Login.cpp in Sources */,
+				40B59A0F1A20CFD40095E1F1 /* UI_Tabel.cpp in Sources */,
+				40DA741D1A276DF800AA2787 /* ResponseRoomList.cpp in Sources */,
+				407EC2421A21BE69005BB51C /* RequestTable.cpp in Sources */,
+				408AAE791A2A27F8000F4E17 /* RequestPutCard.cpp in Sources */,
+				40DA74231A276EBE00AA2787 /* ResponseTable.cpp in Sources */,
 				40715DD419FE10A500F177EA /* MThread.cpp in Sources */,
 				5087E75717EB910900C73F5D /* AppDelegate.cpp in Sources */,
+				408AAE671A29B6A7000F4E17 /* ResponseDouble.cpp in Sources */,
+				40B59A0B1A20C3B30095E1F1 /* Card.cpp in Sources */,
 				40E96FDA1A027C680047E097 /* NetLogic.cpp in Sources */,
+				408AAE5B1A29AC05000F4E17 /* ResponseReadyClick.cpp in Sources */,
 				5087E75817EB910900C73F5D /* HelloWorldScene.cpp in Sources */,
+				408AAE571A29A869000F4E17 /* ResponseExitRoom.cpp in Sources */,
+				40B599FD1A202B700095E1F1 /* UI_Hall.cpp in Sources */,
 				40C1342B1A00B335009ED36A /* HMessage.cpp in Sources */,
 				40C1341F1A009944009ED36A /* HashMap.cpp in Sources */,
 				40C134271A009A9E009ED36A /* HashEntry.cpp in Sources */,
 				40AB988F1A033685007BABEF /* SendNetWork.cpp in Sources */,
+				408AAE751A2A1ADE000F4E17 /* ResponsePutCard.cpp in Sources */,
+				407EC23A1A21B831005BB51C /* RequestRoomList.cpp in Sources */,
+				40C26CAB1A261891001F4A30 /* DynamicData.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
+				408AAE511A29A6D5000F4E17 /* RequestExitRoom.cpp in Sources */,
 				40C134231A00998E009ED36A /* ResponseCommand.cpp in Sources */,
 				40C134151A009601009ED36A /* SymbolLoader.cpp in Sources */,
+				408AAE5F1A29AC8C000F4E17 /* RequestReadyClick.cpp in Sources */,
 				40C1343D1A0121E2009ED36A /* RequestCommand.cpp in Sources */,
 				40174CAA1A1B8F57008DB8D5 /* jionsx.cpp in Sources */,
 				4057E99719FE1AA600CE4900 /* MWebSocket.cpp in Sources */,
 				40C134371A012075009ED36A /* ModelEnter.cpp in Sources */,
 				408EF5A219FE348E0058B891 /* CommonCommand.cpp in Sources */,
 				40174CAF1A1B9147008DB8D5 /* GameData.cpp in Sources */,
+				40B59A131A20D53E0095E1F1 /* PlayerInfo.cpp in Sources */,
 				40C1340F1A008E63009ED36A /* NetData.cpp in Sources */,
-				4007FD651A062C6000C22BD1 /* RequestTest.cpp in Sources */,
+				4007FD651A062C6000C22BD1 /* RequestLoginServer.cpp in Sources */,
+				408AAE6B1A29B825000F4E17 /* ResponseTableInfo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

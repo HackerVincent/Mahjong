@@ -52,15 +52,63 @@ void HandReciveData::use(){
         CCLOG("totalLen------>%d",totalLen);
         int dataLen = mess->getInt();           // 数据区长度
         CCLOG("dataLen------->%d",dataLen);
+        
+        
+        if(NetData::isHaveCommonID(channelId))
+        {
+            ModelEnter* currentCommand = new ModelEnter();
+            currentCommand->DealResponseCommand(mess);
+        }
+        
+        
         /************ 数据区 ***********/
-        char* recv = new char[dataLen];
-        mess->getBytes((uint8_t*)recv, dataLen);
-        auto messData = new HMessage((uint8_t*)recv,dataLen);
+//        if(dataLen != 0)
+//        {
+//            char* recv = new char[dataLen];
+//            mess->getBytes((uint8_t*)recv, dataLen);
+//            auto messData = new HMessage((uint8_t*)recv,dataLen);
+            // 解析数据
+//            analysixData(messData);
+//        }
+        
+        
+//        short prefix1 = mess->getShort();                 // 数据开始标志 固定为 -5000
+//        CCLOG("prefix------>%hd",prefix1);
+//        int modleId = mess->getInt();                    // 模块ID
+//        CCLOG("modleId----->%d",modleId);
+
+//        if(modleId == 50300)
+//        {
+//            int lengh = mess->getInt();
+//            CCLOG("lengh------>%d",lengh);
+//            for(int i = 0; i < lengh; i ++)
+//            {
+//                int roomId = mess->getInt();
+//                CCLOG("roomId------->%d", roomId);
+//                std::string roomName = mess->getUTF8();
+//                CCLOG("roomName----->%s", roomName.c_str());
+//                long baseMoney = mess->getLong();
+//                CCLOG("baseMoney---->%ld", baseMoney);
+//                long minMoney = mess->getLong();
+//                CCLOG("minMoney----->%ld", minMoney);
+//                long maxMoney = mess->getLong();
+//                CCLOG("maxMoney------>%ld",maxMoney);
+//                int level = mess->getInt();
+//                CCLOG("level--------->%d",level);
+//                int playerNum = mess->getInt();
+//                CCLOG("player-------->%d",playerNum);
+//            }
+//        }
         /************  消息尾部  ************/
-        short surffix = mess->getShort();          // 数据结尾标志 传  固定为 -4000
-        CCLOG("surrix----->%hd",surffix);
-        // 解析数据
-        analysixData(messData);
+//        short surffix = mess->getInt();          // 数据结尾标志 传  固定为 -4000
+//        CCLOG("surrix----->%hd",surffix);
+////        int modleId = mess->getInt();
+////        CCLOG("modleId------>%d", modleId);
+//        short surffix1 = mess->getShort();
+//        CCLOG("surffix1------>%hd",surffix1);
+//        short surffix2 = mess->getShort();
+//        CCLOG("surffix2------>%hd",surffix2);
+        
         auto iter = std::find(reciveData.begin(), reciveData.end(), e);
         reciveData.erase(iter);
     }
@@ -103,20 +151,12 @@ void HandReciveData::analysixData(HMessage* mes)
     CCLOG("modleId----->%d",modleId);
     if(NetData::isHaveCommonID(modleId))
     {
+        
+        
 //        ModelEnter* currentCommand = new ModelEnter();
 //        char* data = new char[mes->getlengths() - 10];
 //        mes->getBytes((uint8_t*)data, mes->getlengths() - 10);
 //        auto mesData = new HMessage((uint8_t*)data, mes->getlengths() - 10);
 //        currentCommand->DealResponseCommand(mesData);
     }
-    int a = mes->getInt();
-    CCLOG("a----------->%d",a);
-    short b = mes->getShort();
-    CCLOG("b----------->%d",b);
-    long c = mes->getLong();
-    CCLOG("c----------->%ld",c);
-    string d = mes->getUTF8();
-    CCLOG("d----------->%s",d.c_str());
-    short surffix = mes->getShort();
-    CCLOG("c----------->%hd",surffix);
 }

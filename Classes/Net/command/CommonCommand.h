@@ -34,5 +34,8 @@ public:
     char* getUTF8();
     MWebSocket* getmSocket();
     void stop();
+    
+//private:
+    int commondID = 0;
 };
 #endif /* defined(__Mahjong__CommonCommand__) */

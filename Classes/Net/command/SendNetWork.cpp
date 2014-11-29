@@ -77,13 +77,9 @@ void SendNetWork::sendCommandDataToServer(){
             for(auto e : m_RequestCommandList)
             {
                 auto request = dynamic_cast<RequestCommand*>(e);
-//                RequestCommand* requestCommand = (RequestCommand*) m_RequestCommandList[0];
                 HMessage* sendData = request->CreatCmdPacket();
                 if (CommonCommand::getInstance()->sendMessage(sendData)) {// 网络能发送成功,移除发送指令
                     reTryCount = 0;
-//                    vector<RequestCommand*>::iterator iter=m_RequestCommandList.begin();
-//                    m_RequestCommandList.erase(iter);
-                    
                     auto star_iter = std::find(m_RequestCommandList.begin(),m_RequestCommandList.end(),e);
                     m_RequestCommandList.erase(star_iter);
                 } else {
