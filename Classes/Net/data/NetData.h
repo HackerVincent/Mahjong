@@ -53,6 +53,31 @@ public:
         MODLE_ID_WORLD_TIPS = 60400,        // 世界消息提示（主动下发）
     };
     
+    /*************桌子状态*****************/
+    enum TableState
+    {
+        TABLE_STATE_IDLE = 0,               // 空闲
+        TABLE_STATE_WAIT_READY = 1,         // 等待准备
+        TABLE_STATE_GAMING = 2,             // 游戏中
+        TABLE_STATE_END = 3,                // 结束（等同于空闲）
+    };
+    
+    /*************玩家状态*****************/
+    enum PalyerState
+    {
+        PLAYER_STATE_IDLE = 0,               // 空闲(不在房间内)
+        PLAYER_STATE_NOT_READY = 1,          // 未准备
+        PLAYER_STATE_HAS_READY = 2,          // 已准备
+        PLAYER_STATE_INGAME = 3,             // 游戏中
+    };
+    
+    /*************玩家被T类型*****************/
+    enum PalyerBeTType
+    {
+        GAME_KICK_BY_SYS = 0,               // 被系统T
+        GAME_KICK_BY_PLAYER = 1,            // 被玩家T
+    };
+    
     static bool isLock;
     static int recordCommonID;
     static int commonIDArray[];
