@@ -15,13 +15,7 @@ public:
     static bool isHeartSafe;
     static int HeartCount;
     static int HeartTimeSafe;
-    /**********协议号***************/
-//    enum DealNum
-//    {
-//        C_ENTER_GAME = 0x000A0001,//进入游戏
-//        S_NOREQUEST_RESP = 0x100A0000, //无请求的，服务器主动下发的协议
-//        PLAYEINFO_ = 50200,
-//    };
+
     /*************协议号*****************/
     enum ChannelId
     {
@@ -82,11 +76,6 @@ public:
     static int recordCommonID;
     static int commonIDArray[];
     static bool isHaveCommonID(int commonID);
-    static const char THREE_TYPE = 1;//三人斗地主的类型 对应到room.xml中roomType
-    //打牌时候的状态
-    static const char STAUS_NONE = 0;
-    static const char STATUS_NOMAL = 1;//未准备
 
-    static bool isOutLine;
 };
 #endif /* defined(__Mahjong__Data__) */

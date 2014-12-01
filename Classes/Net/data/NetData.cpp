@@ -12,7 +12,6 @@ int NetData::HeartCount = 450;
 int NetData::HeartTimeSafe = 30 * 1000;
 bool NetData::isLock = false;
 int NetData::recordCommonID = 0;
-bool NetData::isOutLine = false;
 int NetData::commonIDArray[] = {
     CHANNEL_ID_HEART,
     CHANNEL_ID_LOGIN_SERVER,

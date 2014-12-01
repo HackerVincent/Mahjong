@@ -81,6 +81,7 @@ void UI_Hall::roomEnter(cocos2d::Ref *pSender, cocos2d::ui::Widget::TouchEventTy
     switch (type) {
         case Widget::TouchEventType::BEGAN:
         {
+            
         }
             break;
         case Widget::TouchEventType::ENDED:

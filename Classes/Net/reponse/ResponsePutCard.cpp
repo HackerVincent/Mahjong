@@ -9,5 +9,5 @@
 #include "ResponsePutCard.h"
 void ResponsePutCard::DealResponseCommand(HMessage *mess)
 {
-    CCLOG("table~~~");
+    CCLOG("Card~~~");
 }

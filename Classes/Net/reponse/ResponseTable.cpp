@@ -7,6 +7,8 @@
 //
 
 #include "ResponseTable.h"
+#include "Net/data/NetData.h"
+
 void ResponseTable::DealResponseCommand(HMessage *mess)
 {
     int tableId = mess->getInt();
@@ -16,7 +18,7 @@ void ResponseTable::DealResponseCommand(HMessage *mess)
     int tableState = mess->getInt();
     CCLOG("tabelState--->%d",tableState);
     // 如果tableState是空闲或者等待准备状态
-    if(tableState == 0 || tableState == 1)
+    if(tableState == NetData::TABLE_STATE_IDLE || tableState == NetData::TABLE_STATE_WAIT_READY)
     {
         int tableCount = mess->getInt();
         int seatId = mess->getInt();
@@ -32,7 +34,7 @@ void ResponseTable::DealResponseCommand(HMessage *mess)
         CCLOG("kong xian ~~");
     }
     // 如果tableState是游戏状态
-    if(tableState == 2)
+    if(tableState == NetData::TABLE_STATE_GAMING)
     {
         int count = mess->getInt();
         int seatId = mess->getInt();

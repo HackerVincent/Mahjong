@@ -9,6 +9,7 @@
 #include "RequestPutCard.h"
 #include "Net/data/NetData.h"
 #include "Net/command/CommonCommand.h"
+#include "GameDate/GameData.h"
 
 void RequestPutCard::CreatBodyPack(HMessage *mes)
 {
